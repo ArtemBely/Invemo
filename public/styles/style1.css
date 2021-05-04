@@ -1,3 +1,150 @@
-body {
-  background-color: pink;
+@font-face {
+  font-family: 'Muller-Regular';
+  src: url('../fonts/MullerRegular.eot');
+  src: url('../fonts/MullerRegular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MullerRegular.woff') format('woff'),
+      url('../fonts/MullerRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller-Light';
+  src: url('../fonts/MullerLight.eot');
+  src: url('../fonts/MullerLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MullerLight.woff') format('woff'),
+      url('../fonts/MullerLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muller-Bold';
+  src: url('../fonts/MullerBold.eot');
+  src: url('../fonts/MullerBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MullerBold.woff') format('woff'),
+      url('../fonts/MullerBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'Muller-Regular';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.wrap_container{
+  background-image: url(../images/Group\ 362.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1077px;
+}
+.header{
+  margin-top: 50px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:46px 0.5fr 1fr 162px 85px 72px 134px 169px;
+  grid-column-gap:45px;
+  justify-items:center;
+	align-items:center;
+}
+.header_logo {
+  grid-column:1/2;
+  width: 46px;
+  height: 49px;
+}
+.header_logo_name {
+  grid-column:2/3;
+  width: 127px;
+  height: 16px;
+  margin-left: -60px;
+}
+.header_link{
+  font-family: 'Muller-Light';
+  text-decoration:none;
+  border-bottom: 0.5px solid #000000;
+  color: #000000;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 300;
+}
+#link1{
+  grid-column:4/5;
+  width: 162px;
+}
+#link2{
+  grid-column:5/6;
+  width: 85px;
+}
+#link3{
+  grid-column:6/7;
+  width: 72px;
+}
+#link4{
+  grid-column:7/8;
+  width: 134px;
+}
+#link5{
+  grid-column:8/9;
+  width: 169px;
+}
+.main{
+  position: absolute;
+  margin-top: 190px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:607px 378px;
+  grid-template-rows: 3fr 1fr;
+  grid-column-gap:265px;
+  grid-row-gap: 57px;
+}
+.main_title{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 49px;
+  line-height: 79px;
+  font-weight: 400;
+  grid-column:1/2;
+  margin: 0;
+}
+.main_button1{
+  grid-column:1/2;
+  grid-row: 2/3;
+  text-decoration: none;
+  border: 1px solid #E30D1A;
+  text-align:center;
+  width: 220px;
+  height: 83px;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 25px;
+  line-height: 83px;
+  font-weight: 400;
+}
+.main_button2{
+  margin-left: 260px;
+  grid-column:1/2;
+  grid-row: 2/3;
+  text-decoration: none;
+  border: 1px solid #E30D1A;
+  text-align:center;
+  width: 220px;
+  height: 83px;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 25px;
+  line-height: 83px;
+  font-weight: 400;
+}
+.main_text{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+  grid-column:2/3;
 }
