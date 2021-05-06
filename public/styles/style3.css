@@ -1,0 +1,208 @@
+.onboarding {
+  position: absolute;
+  margin-top: 2086px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:580px 730px;
+  grid-template-rows: 100px repeat(4, 80px);
+  grid-column-gap:15px;
+  grid-row-gap: 20px;
+}
+.onboarding_title {
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  grid-column:1/2;
+  grid-row: 1/2;
+  margin: 0;
+}
+.onboarding_img{
+  width: 734px;
+  height: 481px;
+  grid-column:2/3;
+  grid-row: 1/6;
+}
+.square1 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 2/3;
+}
+.onboarding_text1 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 2/3;
+  margin-left: 80px;
+  margin-top: -8px;
+}
+.square2 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 3/4;
+}
+.onboarding_text2 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 3/4;
+  margin-left: 80px;
+  margin-top: -8px;
+}
+.square3 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 4/5;
+}
+.onboarding_text3 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 4/5;
+  margin-left: 80px;
+  margin-top: -8px;
+}
+.square4 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 5/6;
+}
+.onboarding_text4 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 5/6;
+  margin-left: 80px;
+  margin-top: -8px;
+}
+.selection {
+  position: absolute;
+  margin-top: 2755px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:560px 540px;
+  grid-template-rows: 50px 35px 300px 90px;
+  grid-column-gap:115px;
+  grid-row-gap: 25px;
+}
+.selection_title {
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  grid-column:1/2;
+  grid-row: 1/2;
+  margin: 0;
+}
+.selection_note {
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  grid-column:1/2;
+  grid-row: 2/3;
+  margin: 0;
+}
+.selection_account {
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  grid-column:2/3;
+  grid-row: 2/3;
+  margin: 0;
+}
+.selection_note_1{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 265px;
+  height: 110px;
+  padding-top:24px;
+  padding-left: 28px;
+  margin-top: 0;
+}
+.selection_note_2{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 262px;
+  height: 110px;
+  padding-top:24px;
+  padding-left: 28px;
+  margin-top: 142px;
+}
+.selection_note_3{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 221px;
+  height: 110px;
+  padding-top:17px;
+  padding-left: 23px;
+  margin-left: 295px;
+  margin-top: 0;
+}
+.USD{
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 700;
+}

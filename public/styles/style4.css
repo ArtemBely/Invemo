@@ -1,0 +1,219 @@
+.selection_note_4{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 220px;
+  height: 110px;
+  padding-top:24px;
+  padding-left: 40px;
+  margin-left: 292px;
+  margin-top: 142px;
+}
+.selection_account_1{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:2/3;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 353px;
+  height: 110px;
+  padding-top:24px;
+  padding-left: 24px;
+  margin-top: 0;
+}
+.selection_account_2{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:2/3;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 262px;
+  height: 110px;
+  padding-top:22px;
+  padding-left: 31px;
+  margin-top: 142px;
+}
+.selection_account_3{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:2/3;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 152px;
+  height: 110px;
+  padding-top:24px;
+  padding-left: 32px;
+  margin-left: 383px;
+  margin-top: 0;
+}
+.selection_account_4{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:2/3;
+  grid-row: 3/4;
+  transform: rotate(-0.16deg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 243px;
+  height: 110px;
+  padding-top:17px;
+  padding-left: 23px;
+  margin-top: 142px;
+  margin-left: 292px;
+}
+.selection_button{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 83px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 4/5;
+  width: 300px;
+  height: 83px;
+  border: 1px solid #E30D1A;
+  box-sizing: border-box;
+  text-align:center;
+  text-decoration: none;
+}
+#Brokerage_and_Liquidity{
+  position: absolute;
+  margin-top: 3485px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:450px 450px;
+  grid-template-rows: 100px repeat(4, 90px);
+  grid-column-gap:240px;
+  grid-row-gap: 20px;
+}
+.brokerage_title{
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 70px;
+  line-height: 112px;
+  font-weight: 700;
+  grid-column:1/2;
+  grid-row: 1/2;
+  margin: 0;
+}
+.liquidity_title{
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 70px;
+  line-height: 112px;
+  font-weight: 700;
+  grid-column:2/3;
+  grid-row: 1/2;
+  margin: 0;
+}
+.square5 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 2/3;
+}
+.brokerage_text1 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 2/3;
+  margin-left: 80px;
+  margin-top: 12px;
+}
+.square6 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 3/4;
+}
+.brokerage_text2 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 3/4;
+  margin-left: 80px;
+  margin-top: 0;
+}
+.square7 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 4/5;
+}
+.brokerage_text3 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 4/5;
+  margin-left: 80px;
+  margin-top: 12px;
+}
+.square8 {
+  position: absolute;
+  display:inline-block ;
+  width: 50px;
+  height: 50px;
+  background: #C4C4C4;
+  grid-column:1/2;
+  grid-row: 5/6;
+}
+.brokerage_text4 {
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  grid-column:1/2;
+  grid-row: 5/6;
+  margin-left: 80px;
+  margin-top: 12px;
+}
