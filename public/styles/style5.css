@@ -9,7 +9,6 @@
   margin-top: 15px;
 }
 .liquidity_text1 {
-  font-family: 'Muller-Regular';
   color: #000000;
   font-size: 22px;
   line-height: 31px;
@@ -30,7 +29,6 @@
   margin-top: 15px;
 }
 .liquidity_text2 {
-  font-family: 'Muller-Regular';
   color: #000000;
   font-size: 22px;
   line-height: 31px;
@@ -51,7 +49,6 @@
   margin-top: 15px;
 }
 .liquidity_text3 {
-  font-family: 'Muller-Regular';
   color: #000000;
   font-size: 22px;
   line-height: 31px;
@@ -72,7 +69,6 @@
   margin-top: 15px;
 }
 .liquidity_text4 {
-  font-family: 'Muller-Regular';
   color: #000000;
   font-size: 22px;
   line-height: 31px;
@@ -81,4 +77,146 @@
   grid-row: 5/6;
   margin-left: 80px;
   margin-top: 12px;
+}
+#Partners_Providers{
+  position: absolute;
+  margin-top: 4500px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:1316px;
+  grid-template-rows: 112px 540px;
+  grid-row-gap: 18px;
+}
+.partners_title{
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 70px;
+  line-height: 112px;
+  font-weight: 700;
+  grid-row: 1/2;
+  margin: 0;
+}
+.partners_img{
+  width: 1316px;
+  height: 540px;
+  margin-left: -10px;
+}
+.contact{
+  position: absolute;
+  margin-top: 5350px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:repeat(2, 630px);
+  grid-template-rows: 112px repeat(4, 84px);
+  grid-row-gap: 16px;
+  grid-column-gap: 30px;
+}
+.contact_title{
+  font-family: 'Muller-Bold';
+  color: #000000;
+  font-size: 70px;
+  line-height: 112px;
+  font-weight: 700;
+  grid-row: 1/2;
+  margin: 0;
+}
+form{
+  display: contents;
+}
+.name_input{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  padding-left: 37px;
+  width: 630px;
+  height: 83px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.mail_input{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  padding-left: 37px;
+  width: 630px;
+  height: 83px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.phone_input{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  padding-left: 37px;
+  width: 630px;
+  height: 83px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.text_input{
+  grid-column: 2/3;
+  grid-row: 2/4;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
+  padding-left: 37px;
+  padding-top: 26px;
+  width: 630px;
+  height: 283px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  resize: none;
+}
+.contact_button{
+  grid-column: 1/2;
+  grid-row: 5/6;
+  margin-top: 10px;
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 400;
+  width: 190px;
+  height: 83px;
+  background: #DFDFDF;
+  border: none;
+  cursor: pointer;
+}
+.contact_text{
+  grid-column: 1/2;
+  grid-row: 5/6;
+  margin-top: 20px;
+  margin-left: 220px;
+  color: #000000;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.contact_text2{
+  grid-column: 1/2;
+  grid-row: 5/6;
+  margin-top: 119px;
+  color: #000000;
+  font-size: 22px;
+  line-height: 31px;
+  font-weight: 400;
 }
