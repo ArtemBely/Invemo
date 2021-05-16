@@ -1,5 +1,6 @@
 .footer {
-  margin-top: 6120px;
+  margin-top: 5817px;
+  margin-bottom: 110px;
   width: 1320px;
   display: grid;
   grid-template-columns:46px 0.5fr 1fr 162px 85px 72px 134px 169px;
@@ -63,5 +64,3 @@
   margin-top: -90px;
   margin-left: 120px;
 }
-
-

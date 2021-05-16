@@ -125,12 +125,23 @@
   grid-column-gap:45px;
   grid-row-gap: 20px;
 }
-.infrastructure_img{
-  width: 630px;
-  height: 790px;
+#infrastructure_img{
+  position: relative;
+  top: -100px;
   grid-column:1/2;
   grid-row: 1/9;
+  transition: 1s;
 }
+.wrap_code {
+  position: relative;
+  top: 34px;
+  height: 690px;
+  width: 730px;
+  overflow-y: hidden;
+}
+.wrap_code::-webkit-scrollbar {
+   width: 0;
+ }
 .infrastructure_title{
   font-family: 'Muller-Bold';
   color: #000000;

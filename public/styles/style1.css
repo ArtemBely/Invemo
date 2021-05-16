@@ -35,13 +35,25 @@ body{
   display: flex;
   justify-content: center;
   width: 100%;
+  position: relative;
+  z-index: 1000;
+  background-color: white;
+}
+.contacts1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
 }
 .wrap_container{
-  background-image: url(../images/Group\ 362.png);
+  background-image: url('../images/Group\ 362.png');
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1077px;
+  z-index: -1000;
+  position: sticky;
+  top: 0px;
 }
 .header{
   margin-top: 50px;
@@ -51,6 +63,8 @@ body{
   grid-column-gap:45px;
   justify-items:center;
 	align-items:center;
+  z-index: -1;
+  position: relative;
 }
 .header_logo {
   grid-column:1/2;
@@ -101,6 +115,7 @@ body{
   grid-template-rows: 3fr 1fr;
   grid-column-gap:265px;
   grid-row-gap: 57px;
+  z-index: -1;
 }
 .main_title{
   font-family: 'Muller-Regular';
@@ -148,6 +163,9 @@ body{
   font-weight: 400;
   grid-column:2/3;
   margin: 0;
+  position: relative;
+  left: 20px;
+  z-index: -1;
 }
 .asset {
   position: absolute;
@@ -200,6 +218,3 @@ body{
   margin-top: 2px;
   margin-left: 260px;
 }
-
-
-
