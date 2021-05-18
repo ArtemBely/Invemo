@@ -1,0 +1,559 @@
+@media (min-width: 770px) and (max-width: 1390px) {
+  .header{
+    width: 770px;
+  }
+  .main{
+    margin-top: 190px;
+    width: 770px;
+    grid-template-columns:354px 270px;
+    grid-template-rows: 200px 60px;
+    grid-column-gap:80px;
+  grid-row-gap: 35px;
+  }
+  .main_title{
+    font-size: 33px;
+    line-height: 52px;
+    white-space: nowrap;
+  }
+  .main_text{
+    font-size: 16px;
+    line-height: 27px;
+}
+  .wrap_container{
+    height: 660px;
+  }
+  .main_button1{
+    border: 0.68px solid #E30D1A;
+    width: 150px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 57px;
+  }
+  .main_button2{
+    border: 0.68px solid #E30D1A;
+    width: 150px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 57px;
+    margin-left: 185px;
+  }
+  .asset {
+    margin-top: 100px;
+    width: 770px;
+    grid-template-columns:397px 420px;
+    grid-template-rows: 40px 87px 70px repeat(2, 160px) 180px 93px;
+    grid-row-gap: 30px;
+  }
+  .asset_title {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .asset_subtitle {
+    font-size: 18px;
+    line-height: 29px;
+    grid-column: 1/3;
+  }
+  .asset_strategies {
+    font-size: 22px;
+    line-height: 31px;
+    margin-top: 10px;
+  }
+  .asset_strategies_1{
+    margin-top: 80px;
+    margin-left: 0;
+  }
+  .asset_strategies_2{
+    margin-top: 80px;
+    margin-left: 0;
+  }
+  .asset_strategies_3{
+    margin-top: 100px;
+    margin-left: 0;
+  }
+  .rectangle4{
+    grid-row: 4/8;
+    width: 600px;
+    height: 654px;
+  }
+  .rectangle3{
+    margin-top: 28px;
+  }
+  .asset_button{
+    border: 0.66px solid #E30D1A;
+    width: 210px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 57px;
+    margin-top: 20px;
+  }
+  .infrastructure{
+    display: grid;
+    justify-content: center;
+    margin-top: 1240px;
+    width: 770px;
+    grid-template-columns:350px 320px;
+    grid-template-rows: 689px 68px 128px 65px 138px 138px 170px;
+    grid-column-gap:50px;
+    grid-row-gap: 20px;
+  }
+  #infrastructure_img{
+    top: -100px;
+    grid-column:1/3;
+    grid-row: 1/2;
+  }
+  .infrastructure_title{
+    font-size: 30px;
+    line-height: 48px;
+    grid-column:1/3;
+    grid-row: 2/3;
+    margin-top: 40px;
+    color: #181818;
+  }
+  .infrastructure_subtitle{
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:1/3;
+    grid-row: 3/4;
+    color: #595959;
+  }
+  .features{
+    font-size: 22px;
+    line-height: 35px;
+    grid-column:1/2;
+    grid-row: 4/5;
+    padding-top: 20px;
+    color: #181818;
+  }
+  .features_img_1{
+    width: 62px;
+    height: 62px;
+    grid-column:1/2;
+    grid-row: 5/6;
+  }
+  .features_1{
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:1/2;
+    grid-row: 5/6;
+    margin-left: 0;
+    margin-top: 70px;
+    color: #595959;
+  }
+  .features_img_3{
+    width: 62px;
+    height: 62px;
+    grid-column:1/2;
+    grid-row: 6/7;
+    margin-left: -5px;
+  }
+  .features_3{
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:1/2;
+    grid-row: 6/7;
+    margin-left: 0;
+    margin-top: 70px;
+    color: #595959;
+  }
+  .features_img_5{
+    width: 62px;
+    height: 63px;
+    grid-column:1/2;
+    grid-row: 7/8;
+    margin-left: -10px;
+  }
+  .features_5{
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:1/2;
+    grid-row: 7/8;
+    margin-left: 0;
+    margin-top: 70px;
+    color: #595959;
+  }
+  .features_img_2{
+    width: 62px;
+    height: 62px;
+    grid-column:2/3;
+    grid-row: 5/6;
+  }
+  .features_2{
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:2/3;
+    grid-row: 5/6;
+    margin-left: 0;
+    margin-top: 70px;
+    color: #595959;
+  }
+  .features_img_4{
+    width: 62px;
+    height: 62px;
+    grid-column:2/3;
+    grid-row: 6/7;
+    margin-left: -5px;
+  }
+  .features_4{
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:2/3;
+    grid-row: 6/7;
+    margin-left: 0;
+    margin-top: 70px;
+    color: #595959;
+  }
+  .onboarding {
+    display: grid;
+    justify-content: center;
+    margin-top: 3000px;
+    width: 770px;
+    grid-template-columns:335px 330px;
+    grid-template-rows: 481px 100px 178px 178px;
+    grid-column-gap:40px;
+    grid-row-gap: 40px;
+  }
+  .onboarding_title {
+    font-size: 30px;
+    line-height: 42px;
+    grid-column:1/3;
+    grid-row: 2/3;
+    margin-top: 20px;
+    color: #181818;
+  }
+  .onboarding_img{
+    width: 696px;
+    height: 481px;
+    grid-column:1/3;
+    grid-row: 1/2;
+  }
+  .square1 {
+    grid-column:1/2;
+    grid-row: 3/4;
+    margin-left: -15px;
+  }
+  .onboarding_text1 {
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:1/2;
+    grid-row: 3/4;
+    margin-left: 0;
+    margin-top: 82px;
+    color: #595959;
+  }
+  .square3 {
+    grid-column:1/2;
+    grid-row: 4/5;
+  }
+  .onboarding_text3 {
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:1/2;
+    grid-row: 4/5;
+    margin-left: 0;
+    margin-top: 82px;
+    color: #181818;
+    color: #595959;
+  }
+  .square2 {
+    grid-column:2/3;
+    grid-row: 3/4;
+  }
+  .onboarding_text2 {
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:2/3;
+    grid-row: 3/4;
+    margin-left: 0;
+    margin-top: 82px;
+    color: #595959;
+  }
+  .square4 {
+    grid-column:2/3;
+    grid-row: 4/5;
+  }
+  .onboarding_text4 {
+    font-size: 20px;
+    line-height: 32px;
+    grid-column:2/3;
+    grid-row: 4/5;
+    margin-left: 0;
+    margin-top: 82px;
+    color: #595959;
+  }
+  .selection {
+    margin-top: 4250px;
+    width: 770px;
+    grid-template-columns: 600px;
+    grid-template-rows: 30px 100px repeat(3, 31px) 35px 100px repeat(3, 31px) 35px 100px;
+    grid-row-gap: 20px;
+    padding-left: 62px;
+  }
+  .selection_note {
+    margin-top: 30px;
+  }
+  .selection_account {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+  .selection_account_1{
+    grid-column:1/2;
+    grid-row: 8/9;
+  }
+  .selection_account_2{
+    grid-column:1/2;
+    grid-row: 9/10;
+  }
+  .selection_account_3{
+    grid-column:1/2;
+    grid-row: 10/11;
+  }
+  .selection_account_4{
+    grid-column:1/2;
+    grid-row: 11/12;
+  }
+  .selection_button{
+    grid-column:1/2;
+    grid-row: 12/13;
+    margin-top: 20px;
+  }
+  #Brokerage_and_Liquidity{
+    padding-left: 62px;
+    margin-top: 5200px;
+    width: 770px;
+    grid-template-columns:270px 450px;
+    grid-template-rows: 65px repeat(3, 50px) 75px;
+    grid-column-gap:100px;
+    grid-row-gap: 35px;
+  }
+  .brokerage_title{
+    font-size: 40px;
+    line-height: 64px;
+    color: #181818;
+  }
+  .liquidity_title{
+    font-size: 40px;
+    line-height: 64px;
+    color: #181818;
+  }
+  .square5 {
+    width: 52px;
+    height: 52px;
+  }
+  .brokerage_text1 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .square6 {
+    width: 52px;
+    height: 52px;
+  }
+  .brokerage_text2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .square7 {
+    width: 52px;
+    height: 52px;
+    margin-left: 0;
+  }
+  .brokerage_text3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .square8 {
+    width: 52px;
+    height: 52px;
+  }
+  .brokerage_text4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .trading{
+    margin-top: 5750px;
+    padding-left: 62px;
+    width: 770px;
+    grid-template-columns:300px 300px;
+    grid-column-gap:80px;
+  }
+  .trading_img1{
+    width: 300px;
+    height: 158px;
+  }
+  .trading_img2{
+    width: 300px;
+  height: 158px;
+  }
+  .square9 {
+    width: 52px;
+    height: 52px;
+  }
+  .liquidity_text1 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .square10 {
+    width: 52px;
+    height: 52px;
+  }
+  .liquidity_text2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .square11 {
+    width: 52px;
+    height: 52px;
+  }
+  .liquidity_text3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  .square12 {
+    width: 52px;
+    height: 52px;
+  }
+  .liquidity_text4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 74px;
+    color: #595959;
+  }
+  #Partners_Providers{
+    margin-top: 6100px;
+    padding-left: 62px;
+    width: 770px;
+    grid-template-columns:760px;
+    grid-template-rows: 64px 350px;
+    grid-row-gap: 18px;
+  }
+  .partners_title{
+    color: #181818;
+    font-size: 40px;
+    line-height: 64px;
+  }
+  .partners_img{
+    width: 760px;
+    height: 350px;
+    margin-left: -10px;
+  }
+  .contact{
+    margin-top: 6570px;
+    width: 770px;
+    grid-template-columns:690px;
+    grid-template-rows: 64px repeat(3, 84px) 286px 83px 31px;
+    grid-row-gap: 16px;
+    padding-left: 62px;
+  }
+  .contact_title{
+    color: #181818;
+    font-size: 40px;
+    line-height: 64px;
+  }
+  .name_input{
+    grid-row: 2/3;
+    width: 690px;
+    height: 84px;
+  }
+  .mail_input{
+    grid-row: 3/4;
+    width: 690px;
+    height: 84px;
+  }
+  .phone_input{
+    grid-row: 4/5;
+    width: 690px;
+    height: 84px;
+  }
+  .text_input{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 690px;
+    height: 286px;
+  }
+  .contact_button{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    width: 330px;
+    height: 83px;
+  }
+  .contact_text{
+    grid-row: 6/7;
+    margin-left: 380px;
+  }
+  .contact_text2{
+    grid-row: 7/8;
+    margin-top: 30px;
+  }
+  .footer {
+    margin-top: 7520px;
+    padding-left: 62px;
+    width: 770px;
+    grid-template-columns: 180px 400px;
+    grid-column-gap:110px;
+  }
+  .footer_logo_name {
+    margin-left: 70px;
+    grid-column:1/2;
+    margin-top: -50px;
+  }
+  #link6{
+    grid-column:2/3;
+    margin-top: -60px;
+  }
+  #link7{
+    grid-column:2/3;
+    margin-top: -60px;
+    margin-left: 350px;
+  }
+  #link8{
+    grid-column:2/3;
+    margin-left: -90px;
+    margin-top: 15px;
+  }
+  #link9{
+    grid-column:2/3;
+   margin-top: -30px;
+   margin-left: 200px;
+  }
+  #link10{
+    grid-column:2/3;
+    margin-top: 30px;
+  }
+  .footer_logo {
+    margin-left: -120px;
+  }
+  .footer_address{
+    grid-column:2/3;
+    margin-top: 70px;
+    margin-left: 80px;
+  }
+  .footer_mail{
+    grid-column:2/3;
+    margin-top: 10px;
+    margin-left:-40px;
+  }
+  .footer_img1{
+    grid-column:2/3;
+   margin-top: -30px;
+   margin-left: 200px;
+  }
+  .footer_img2{
+    grid-column:2/3;
+    margin-top: -45px;
+    margin-left: 330px;
+
+  }
+}

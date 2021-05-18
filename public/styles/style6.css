@@ -1,6 +1,6 @@
 .footer {
-  margin-top: 5817px;
-  margin-bottom: 110px;
+  margin-top: 6050px;
+  margin-bottom: 80px;
   width: 1320px;
   display: grid;
   grid-template-columns:46px 0.5fr 1fr 162px 85px 72px 134px 169px;
@@ -63,4 +63,42 @@
   grid-column:8/9;
   margin-top: -90px;
   margin-left: 120px;
+}
+.trading{
+  position: absolute;
+  margin-top: 4070px;
+  width: 1320px;
+  display: grid;
+  grid-template-columns:516px 516px;
+  grid-column-gap:170px;
+}
+.trading_img1{
+  grid-column:1/2;
+  width: 516px;
+  height: 273px;
+}
+.trading_img2{
+  grid-column:2/3;
+  width: 516px;
+  height: 273px;
+}
+#link6{
+  grid-column:4/5;
+  width: 162px;
+}
+#link7{
+  grid-column:5/6;
+  width: 85px;
+}
+#link8{
+  grid-column:6/7;
+  width: 72px;
+}
+#link9{
+  grid-column:7/8;
+  width: 134px;
+}
+#link10{
+  grid-column:8/9;
+  width: 169px;
 }

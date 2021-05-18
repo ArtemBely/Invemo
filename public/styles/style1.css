@@ -172,10 +172,9 @@ body{
   margin-top: 170px;
   width: 1320px;
   display: grid;
-  grid-template-columns:640px 1000px;
-  grid-template-rows: 98px 145px 104px repeat(3, 80px) 93px;
-  grid-column-gap:15px;
-  grid-row-gap: 20px;
+  grid-template-columns:750px 1000px;
+  grid-template-rows: 98px 105px 94px repeat(3, 80px) 93px;
+  grid-row-gap: 40px;
 }
 .asset_title {
   font-family: 'Muller-Bold';
@@ -195,7 +194,7 @@ body{
   font-weight: 400;
   grid-column:1/2;
   grid-row: 2/3;
-  margin-top: 40px;
+  margin-top: 0;
 }
 .asset_strategies {
   font-family: 'Muller-Bold';
