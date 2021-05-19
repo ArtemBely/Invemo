@@ -79,9 +79,10 @@
   margin-top: 4548px;
   width: 1320px;
   display: grid;
-  grid-template-columns:1316px;
-  grid-template-rows: 112px 540px;
-  grid-row-gap: 18px;
+  grid-template-columns:400px 400px 400px;
+  grid-template-rows: 112px 230px 230px;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
 }
 .partners_title{
   font-family: 'Muller-Bold';
@@ -89,13 +90,45 @@
   font-size: 70px;
   line-height: 112px;
   font-weight: 700;
+  grid-column: 1/3;
   grid-row: 1/2;
   margin: 0;
 }
-.partners_img{
-  width: 1316px;
-  height: 540px;
-  margin-left: -10px;
+.partners_img1{
+  width: 400px;
+  height: 230px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.partners_img2{
+  width: 400px;
+  height: 230px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.partners_img3{
+  width: 400px;
+  height: 230px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.partners_img4{
+  width: 400px;
+  height: 230px;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.partners_img5{
+  width: 400px;
+  height: 230px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.partners_img6{
+  width: 400px;
+  height: 230px;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 .contact{
   position: absolute;

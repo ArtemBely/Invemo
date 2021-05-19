@@ -64,24 +64,6 @@
   margin-top: -90px;
   margin-left: 120px;
 }
-.trading{
-  position: absolute;
-  margin-top: 4070px;
-  width: 1320px;
-  display: grid;
-  grid-template-columns:516px 516px;
-  grid-column-gap:170px;
-}
-.trading_img1{
-  grid-column:1/2;
-  width: 516px;
-  height: 273px;
-}
-.trading_img2{
-  grid-column:2/3;
-  width: 516px;
-  height: 273px;
-}
 #link6{
   grid-column:4/5;
   width: 162px;
