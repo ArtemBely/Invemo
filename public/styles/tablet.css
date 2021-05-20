@@ -1,9 +1,121 @@
+@media (min-width: 1100px) and (max-width: 1390px) {
+  .close {
+    left: 521px !important;
+  }
+  .hiddenMenu {
+    display: grid;
+    position: relative;
+    background: darkgray;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    font-size: 18px;
+    left: 1400px;
+  }
+  .showHidden {
+    left: 440px !important;
+  }
+}
 @media (min-width: 770px) and (max-width: 1390px) {
   .header{
     width: 770px;
   }
+  .hiddenMenu {
+    display: grid;
+    position: relative;
+    background: darkgray;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    font-size: 18px;
+    left: 1400px;
+    transition: 0.2s;
+  }
+  .showHidden {
+    left: 360px;
+  }
+  #link11 {
+    left: 95px !important;
+  }
+  #link22 {
+    left: 171px !important;
+  }
+  #link33 {
+    left: 183px !important;
+  }
+  #link44 {
+    left: 122px !important;
+  }
+  #link55 {
+    left: 87px !important;
+  }
+  .mobile_header_link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 93px;
+    height: 24px;
+  }
   .header_logo_name{
-    margin-left: -40px;
+    width: 107px;
+    height: 14px;
+    position: relative;
+    left: -60px;
+    top: 69px;
+  }
+  .header {
+    display: none;
+  }
+  .close {
+    display: grid;
+    width: 50px;
+    height: 41px;
+    position: relative;
+    left: 480px;
+    top: 67px;
+    cursor: pointer;
+  }
+  #close1, #close2, #close3 {
+    width: 30px !important;
+    height: 2px;
+    z-index: 1000;
+    position: relative;
+    background: black;
+  }
+  #close1 {
+    left: 21px;
+    top: -14px;
+    transition: 0.2s;
+  }
+  #close2 {
+    left: 21px;
+    top: -40px;
+    transition: 0.2s;
+  }
+  #close3 {
+    top: -66px;
+    left: 21px;
+    transition: 0.2s;
+  }
+  .rotate_close3 {
+    top: -77px !important;
+    left: 21px;
+    transform: rotate(-45deg);
+    background: white !important;
+  }
+  .transform_close2 {
+    opacity: 0;
+  }
+  .rotate_close1 {
+    top: -9px !important;
+    left: 21px;
+    transform: rotate(45deg);
+    background: white !important;
+  }
+  .header_logo {
+    position: relative;
+    left: -135px;
+    top: 52px;
   }
   .main{
     margin-top: 190px;
@@ -16,7 +128,6 @@
   .main_title{
     font-size: 33px;
     line-height: 52px;
-    white-space: nowrap;
   }
   .main_text{
     font-size: 16px;
@@ -24,6 +135,7 @@
 }
   .wrap_container{
     height: 660px;
+    overflow-x: hidden;
   }
   .main_button1{
     border: 0.68px solid #E30D1A;
@@ -31,6 +143,8 @@
     height: 57px;
     font-size: 18px;
     line-height: 57px;
+    position: relative;
+    top: 57px;
   }
   .main_button2{
     border: 0.68px solid #E30D1A;
@@ -39,6 +153,8 @@
     font-size: 18px;
     line-height: 57px;
     margin-left: 185px;
+    position: relative;
+    top: 57px;
   }
   .asset {
     margin-top: 100px;

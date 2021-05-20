@@ -51,9 +51,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   height: 1077px;
-  z-index: -1000;
   position: sticky;
   top: 0px;
+}
+.hiddenMenu {
+  display: none;
 }
 .header{
   margin-top: 50px;
@@ -70,12 +72,21 @@ body{
   grid-column:1/2;
   width: 46px;
   height: 49px;
+  position: relative;
+  left: 52px;
+  top: 39px;
+}
+.close {
+  display: none;
 }
 .header_logo_name {
   grid-column:2/3;
   width: 127px;
   height: 16px;
   margin-left: -60px;
+  position: relative;
+  left: 121px;
+  top: 55px;
 }
 .header_link{
   font-family: 'Muller-Light';

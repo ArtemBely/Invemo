@@ -1,16 +1,15 @@
-@media (min-width: 415px) and (max-width: 770px) {
+@media (min-width: 360px) and (max-width: 770px) {
   .header{
     width: 415px;
     margin-left: -20px;
   }
   .header_logo{
     width: 29px;
-height: 31px;
+    height: 31px;
   }
   .header_logo_name{
-    margin-left: -45px;
-    width: 80px;
-  height: 10px;
+    width: 107px;
+    height: 14px;
   }
   .main{
     margin-top: 190px;
@@ -706,5 +705,5 @@ height: 11px;
     margin-left: 130px;
 
   }
-  
+
 }
