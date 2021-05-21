@@ -1,4 +1,4 @@
-@media (min-width: 360px) and (max-width: 770px) {
+@media (min-width: 320px) and (max-width: 360px) {
   .header {
     display: none;
   }
@@ -23,8 +23,8 @@
   }
   .main{
     margin-top: 190px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 30px;
+    grid-template-columns:300px;
     grid-template-rows: 150px 66px 180px;
   grid-row-gap: 20px;
   }
@@ -59,7 +59,8 @@
 }
   .wrap_container{
     height: 719px;
-    width: 100%;
+    width: 300px;
+
   }
   .main_button1{
     border: 0.68px solid #E30D1A;
@@ -87,10 +88,11 @@
   }
   .asset {
     margin-top: 50px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 300px;
+    grid-template-columns:300px;
     grid-template-rows: 40px 100px 85px  135px 155px 155px  75px;
     grid-row-gap: 15px;
+    margin-left: 470px;
   }
   .asset_title {
     font-size: 30px;
@@ -139,9 +141,9 @@
     display: grid;
     justify-content: center;
     margin-top: 950px;
-    width: 330px;
+    width: 300px;
     left: 70px;
-    grid-template-columns:330px;
+    grid-template-columns:300px;
     grid-template-rows: 477px 38px 104px 55px repeat(4, 55px) 85px;
     grid-row-gap: 20px;
   }
@@ -254,12 +256,16 @@
     margin-left: 82px;
     color: #595959;
   }
+  .wrap_onboarding{
+    justify-content: right;
+    margin-left: 45px;
+  }
   .onboarding {
     display: grid;
     justify-content: center;
     margin-top: 2200px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 300px;
+    grid-template-columns:300px;
     grid-template-rows: 240px 62px 60px 60px 75px 60px;
     grid-row-gap: 25px;
   }
@@ -331,8 +337,8 @@
   }
   .selection {
     margin-top: 3000px;
-    width: 330px;
-    grid-template-columns: 330px;
+    width: 300px;
+    grid-template-columns: 300px;
     grid-template-rows: 30px 90px repeat(3, 27px) 30px 90px 45px repeat(2, 27px) 30px 100px;
     grid-row-gap: 15px;
     left: 16px;
@@ -407,9 +413,9 @@ height: 83px;
   }
   #Brokerage_and_Liquidity{
     margin-top: 3870px;
-    width: 330px;
+    width: 300px;
     left: 19px;
-    grid-template-columns:330px;
+    grid-template-columns:300px;
     grid-template-rows: 40px repeat(4, 55px) 300px  40px repeat(3, 70px) 85px 250px;
     grid-row-gap: 25px;
   }
@@ -468,7 +474,7 @@ height: 83px;
   .trading_img1{
     grid-column:1/2;
     grid-row: 6/7;
-    width: 345px;
+    width: 320px;
     height: 183px;
     margin-top: 0;
   }
@@ -542,14 +548,14 @@ height: 83px;
   .trading_img2{
     grid-column:1/2;
     grid-row: 12/13;
-    width: 345px;
+    width: 320px;
     height: 183px;
     margin-top: 25px;
   }
   #Partners_Providers{
     margin-top: 5380px;
     left: 20px;
-    width: 330px;
+    width: 300px;
     grid-template-columns:repeat(2, 150px);
     grid-template-rows: 45px repeat(3, 97px);
     grid-row-gap: 13px;
@@ -603,8 +609,8 @@ height: 83px;
   }
   .contact{
     margin-top: 5880px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 300px;
+    grid-template-columns:300px;
     grid-template-rows: 35px repeat(3, 42px) 145px 42px 16px;
     grid-row-gap: 10px;
     left: 24px;
@@ -671,7 +677,7 @@ height: 83px;
   }
   .footer {
     margin-top: 6380px;
-    width: 330px;
+    width: 300px;
     left: -26px;
     grid-template-columns: 145px 150px;
     grid-template-rows: 73px repeat(3, 35px) 70px 46px;
