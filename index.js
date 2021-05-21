@@ -5,7 +5,7 @@ window.addEventListener('scroll', () => {
   let code = imageCode.getBoundingClientRect().top;
   if(window.innerHeight > (code + 300) && code > -950) {
     let diff = window.innerHeight - code;
-    imageCode.style.transform = `translateY(-${diff / 4}px)`
+    imageCode.style.transform = `translateY(-${diff / 10}px)`
   }
 });
 

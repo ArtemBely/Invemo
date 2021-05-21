@@ -67,9 +67,24 @@
 .rectangle4{
   grid-column:2/3;
   grid-row: 2/8;
-  width: 900px;
+  width: 640px;
   height: 715px;
   margin-top: 5px;
+}
+.br_1{
+  display: inline-block;
+}
+.br_2{
+  display: none;
+}
+.br_3{
+  display: none;
+}
+.br_4{
+  display: inline-block;
+}
+.br_5{
+  display: none;
 }
 .infrastructure{
   position: absolute;
