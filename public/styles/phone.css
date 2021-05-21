@@ -23,8 +23,8 @@
   }
   .main{
     margin-top: 190px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 415px;
+    grid-template-columns:350px;
     grid-template-rows: 150px 66px 180px;
   grid-row-gap: 20px;
   }
@@ -32,7 +32,6 @@
     font-size: 22px;
     line-height: 36px;
     white-space: nowrap;
-    
   }
   .br_1{
     display: none;
@@ -55,11 +54,11 @@
     grid-column: 1/2;
     grid-row: 2/3;
     margin-left: -20px;
-    
 }
   .wrap_container{
     height: 719px;
     width: 100%;
+    background: urlurl('../images/Group\ 362.png') 0 0/auto auto no-repeat;
   }
   .main_button1{
     border: 0.68px solid #E30D1A;
@@ -69,7 +68,6 @@
     line-height: 57px;
     grid-row: 3/4;
     margin-top: 120px;
-    
   }
   .wrap_code {
     width: 360px;
@@ -83,12 +81,11 @@
     margin-left: 158px;
     grid-row: 3/4;
     margin-top: 120px;
-    margin-left: 158px;
   }
   .asset {
     margin-top: 50px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 300px;
+    grid-template-columns:400px;
     grid-template-rows: 40px 100px 85px  135px 155px 155px  75px;
     grid-row-gap: 15px;
   }
@@ -139,20 +136,20 @@
     display: grid;
     justify-content: center;
     margin-top: 950px;
-    width: 330px;
+    width: 300px;
     left: 70px;
-    grid-template-columns:330px;
+    grid-template-columns:415px;
     grid-template-rows: 477px 38px 104px 55px repeat(4, 55px) 85px;
     grid-row-gap: 20px;
   }
   #infrastructure_img{
     grid-column:1/2;
     grid-row: 1/2;
-    width: 300px;
+    width: 352px;
   height: 100%;
   }
   .infrastructure_title{
-    font-size: 23px;
+    font-size: 24px;
     line-height: 38px;
     grid-column:1/2;
     grid-row: 2/3;
@@ -160,8 +157,8 @@
     margin-top: 0;
   }
   .infrastructure_subtitle{
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 26px;
     grid-column:1/2;
     grid-row: 3/4;
     color: #595959;
@@ -258,8 +255,8 @@
     display: grid;
     justify-content: center;
     margin-top: 2200px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 300px;
+    grid-template-columns:400px;
     grid-template-rows: 240px 62px 60px 60px 75px 60px;
     grid-row-gap: 25px;
   }
@@ -271,7 +268,7 @@
     color: #181818;
   }
   .onboarding_img{
-    width: 300px;
+    width: 354px;
     height: 237px;
     grid-column:1/2;
     grid-row: 1/2;
@@ -331,8 +328,8 @@
   }
   .selection {
     margin-top: 3000px;
-    width: 330px;
-    grid-template-columns: 330px;
+    width: 300px;
+    grid-template-columns: 400px;
     grid-template-rows: 30px 90px repeat(3, 27px) 30px 90px 45px repeat(2, 27px) 30px 100px;
     grid-row-gap: 15px;
     left: 16px;
@@ -407,9 +404,9 @@ height: 83px;
   }
   #Brokerage_and_Liquidity{
     margin-top: 3870px;
-    width: 330px;
+    width: 300px;
     left: 19px;
-    grid-template-columns:330px;
+    grid-template-columns:400px;
     grid-template-rows: 40px repeat(4, 55px) 300px  40px repeat(3, 70px) 85px 250px;
     grid-row-gap: 25px;
   }
@@ -549,44 +546,44 @@ height: 83px;
   #Partners_Providers{
     margin-top: 5380px;
     left: 20px;
-    width: 330px;
-    grid-template-columns:repeat(2, 150px);
+    width: 300px;
+    grid-template-columns:repeat(2, 162px);
     grid-template-rows: 45px repeat(3, 97px);
     grid-row-gap: 13px;
     grid-column-gap: 13px;
   }
   .partners_img1{
-    width: 150px;
+    width: 162px;
     height: 97px;
     grid-column: 1/2;
     grid-row: 2/3;
   }
   .partners_img2{
-    width: 150px;
+    width: 162px;
     height: 97px;
     grid-column: 2/3;
     grid-row: 2/3;
   }
   .partners_img3{
-    width: 150px;
+    width: 162px;
     height: 97px;
     grid-column: 1/2;
     grid-row: 3/4;
   }
   .partners_img4{
-    width: 150px;
+    width: 162px;
     height: 97px;
     grid-column: 2/3;
     grid-row: 3/4;
   }
   .partners_img5{
-    width: 150px;
+    width: 162px;
     height: 97px;
     grid-column: 1/2;
     grid-row: 4/5;
   }
   .partners_img6{
-    width: 150px;
+    width: 162px;
     height: 97px;
     grid-column: 2/3;
     grid-row: 4/5;
@@ -603,8 +600,8 @@ height: 83px;
   }
   .contact{
     margin-top: 5880px;
-    width: 330px;
-    grid-template-columns:330px;
+    width: 300px;
+    grid-template-columns:400px;
     grid-template-rows: 35px repeat(3, 42px) 145px 42px 16px;
     grid-row-gap: 10px;
     left: 24px;
@@ -616,7 +613,7 @@ height: 83px;
   }
   .name_input{
     grid-row: 2/3;
-    width: 300px;
+    width: 351px;
     height: 42px;
     font-size: 16px;
   line-height: 22px;
@@ -624,7 +621,7 @@ height: 83px;
   }
   .mail_input{
     grid-row: 3/4;
-    width: 300px;
+    width: 351px;
     height: 42px;
     font-size: 16px;
     line-height: 22px;
@@ -632,7 +629,7 @@ height: 83px;
   }
   .phone_input{
     grid-row: 4/5;
-    width: 300px;
+    width: 351px;
     height: 42px;
     font-size: 16px;
     line-height: 22px;
@@ -641,7 +638,7 @@ height: 83px;
   .text_input{
     grid-column: 1/2;
     grid-row: 5/6;
-    width: 300px;
+    width: 352px;
     height: 145px;
     font-size: 16px;
     line-height: 22px;
@@ -671,7 +668,7 @@ height: 83px;
   }
   .footer {
     margin-top: 6380px;
-    width: 330px;
+    width: 300px;
     left: -26px;
     grid-template-columns: 145px 150px;
     grid-template-rows: 73px repeat(3, 35px) 70px 46px;

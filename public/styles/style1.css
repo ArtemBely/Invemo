@@ -45,55 +45,6 @@ body{
   width: 100%;
   position: relative;
 }
-
-.wrap_infrastructure{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_onboarding{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_selection{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_Brokerage_and_Liquidity{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_Partners_Providers{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_contact{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_footer{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
-.wrap_asset{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-}
 .wrap_container{
   background-image: url('../images/Group\ 362.png');
   background-position:center;
@@ -102,13 +53,6 @@ body{
   height: 1077px;
   position: sticky;
   top: 0px;
-}
-
-.wrap_header_main{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
 }
 .hiddenMenu {
   display: none;
