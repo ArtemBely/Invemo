@@ -27,3 +27,89 @@
     left: 20px;
   }
 }
+/*@media (min-height: 360px) and (orientation:landscape) {
+  #infrastructure_img{
+   margin-left: 130px;
+  }
+  .infrastructure_title{
+    margin-left: 130px;
+  }
+  .infrastructure_subtitle{
+    margin-left: 130px;
+  }
+  .features{
+    margin-left: 130px;
+  }
+  .features_img_1, .features_img_2, .features_img_3, .features_img_4, .features_img_5{
+    margin-left: 130px;
+  }
+  .features_1, .features_2, .features_3, .features_4, .features_5{
+    margin-left: 210px;
+  }
+}*/
+@media (min-height: 768px) and (orientation:landscape) {
+  .features_1, .features_2, .features_3, .features_4, .features_5{
+    margin-left: 130px;
+  }
+}
+@media (min-height: 411px) and (orientation:landscape) {
+  #infrastructure_img{
+   margin-left: 170px;
+  }
+  .infrastructure_title{
+    margin-left: 170px;
+  }
+  .infrastructure_subtitle{
+    margin-left: 170px;
+  }
+  .features{
+    margin-left: 170px;
+  }
+  .features_img_1, .features_img_2, .features_img_3, .features_img_4, .features_img_5{
+    margin-left: 170px;
+  }
+  .features_1, .features_2, .features_3, .features_4, .features_5{
+    margin-left: 250px;
+  }
+}
+@media (min-height: 320px) and (orientation:landscape) {
+  .container{
+    left: -100px;
+  }
+  .wrap_container{
+    margin-left: -100px;
+  }
+  .infrastructure{
+    margin-left: 30px;
+  }
+  #infrastructure_img{
+    margin-left: 100px;
+   }
+   .infrastructure_title{
+     margin-left: 100px;
+   }
+   .infrastructure_subtitle{
+     margin-left: 100px;
+   }
+   .features{
+     margin-left: 100px;
+   }
+   .features_img_1, .features_img_2, .features_img_3, .features_img_4, .features_img_5{
+     margin-left: 100px;
+   }
+   .features_1, .features_2, .features_3, .features_4, .features_5{
+     margin-left: 180px;
+   }
+}
+@media (min-height: 375px) and (orientation:landscape) {
+  
+  .container{
+    left: 0px;
+  }
+  .wrap_container{
+    margin-left: 0px;
+  }
+  .features_1, .features_2, .features_3, .features_4, .features_5{
+    margin-left: 180px;
+}
+}
