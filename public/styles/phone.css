@@ -1,3 +1,27 @@
+@media (min-width: 320px) and (max-width: 360px) {
+  .wrap_footer {
+    left: -29px !important;
+  }
+  .infrastructure {
+    left: 55px;
+  }
+  .wrap_code, #infrastructure_img {
+    width: 335px !important;
+  }
+  .wrap_code {
+    left: 11px !important
+  }
+}
+@media (min-width: 360px) and (max-width: 374px) {
+  .infrastructure {
+    left: 60px !important;
+  }
+}
+@media (min-width: 410px) and (max-width: 415px) {
+  .infrastructure {
+    left: 88px !important;
+  }
+}
 @media (min-width: 360px) and (max-width: 770px) {
   .header {
     display: none;
@@ -23,15 +47,16 @@
   }
   .main{
     margin-top: 190px;
-    width: 415px;
+    width: 300px;
     grid-template-columns:350px;
     grid-template-rows: 150px 66px 180px;
-  grid-row-gap: 20px;
+    grid-row-gap: 20px;
   }
   .main_title{
     font-size: 22px;
     line-height: 36px;
     white-space: nowrap;
+    width: 300px;
   }
   .br_1{
     display: none;
@@ -54,6 +79,7 @@
     grid-column: 1/2;
     grid-row: 2/3;
     margin-left: -20px;
+    width: 210px;
 }
   .wrap_container{
     height: 719px;
@@ -71,6 +97,7 @@
   }
   .wrap_code {
     width: 360px;
+    height: 446px;
   }
   .main_button2{
     border: 0.68px solid #E30D1A;
@@ -92,34 +119,40 @@
   .asset_title {
     font-size: 30px;
     line-height: 42px;
+    width: 320px;
   }
   .asset_subtitle {
     font-size: 16px;
     line-height: 26px;
     grid-column: 1/3;
+    width: 326px;
   }
   .asset_strategies {
     font-size: 22px;
     line-height: 31px;
     margin-top: 15px;
+    width: 320px;
   }
   .asset_strategies_1{
     margin-top: 80px;
     font-size: 16px;
     line-height: 26px;
     margin-left: 0;
+    width: 320px;
   }
   .asset_strategies_2{
     margin-top: 80px;
     margin-left: 0;
     font-size: 16px;
     line-height: 26px;
+    width: 320px;
   }
   .asset_strategies_3{
     margin-top: 80px;
     margin-left: 0;
     font-size: 16px;
     line-height: 26px;
+    width: 320px;
   }
   .rectangle4{
     display: none;
@@ -146,7 +179,7 @@
     grid-column:1/2;
     grid-row: 1/2;
     width: 352px;
-  height: 100%;
+    height: 148%;
   }
   .infrastructure_title{
     font-size: 24px;
@@ -155,6 +188,7 @@
     grid-row: 2/3;
     color: #181818;
     margin-top: 0;
+    width: 334px;
   }
   .infrastructure_subtitle{
     font-size: 16px;
@@ -163,6 +197,7 @@
     grid-row: 3/4;
     color: #595959;
     margin-top: 0;
+    width: 352px;
   }
   .features{
     font-size: 22px;
@@ -188,6 +223,7 @@
     grid-row: 5/6;
     margin-left:82px;
     color: #595959;
+    width: 280px;
   }
   .features_img_2{
     width: 62px;
@@ -202,6 +238,7 @@
     grid-row: 6/7;
     margin-left: 82px;
     color: #595959;
+    width: 280px;
   }
   .features_img_3{
     width: 62px;
@@ -218,6 +255,7 @@
     margin-left: 82px;
     color: #595959;
     margin-top: 2px;
+    width: 280px;
   }
   .features_img_4{
     width: 62px;
@@ -234,6 +272,7 @@
     margin-left: 82px;
     color: #595959;
     margin-top: 17px;
+    width: 280px;
   }
   .features_img_5{
     width: 62px;
@@ -250,6 +289,7 @@
     grid-row: 9/10;
     margin-left: 82px;
     color: #595959;
+    width: 280px;
   }
   .onboarding {
     display: grid;
@@ -266,6 +306,7 @@
     grid-column:1/2;
     grid-row: 2/3;
     color: #181818;
+    width: 310px;
   }
   .onboarding_img{
     width: 354px;
@@ -286,6 +327,7 @@
     margin-left: 80px;
     color: #595959;
     margin-top: 10px;
+    width: 275px;
   }
   .square2 {
     grid-column:1/2;
@@ -299,6 +341,7 @@
     margin-left: 80px;
     color: #595959;
     margin-top: 10px;
+    width: 275px;
   }
   .square3 {
     grid-column:1/2;
@@ -312,6 +355,7 @@
     grid-row: 5/6;
     margin-left: 80px;
     color: #595959;
+    width: 275px;
   }
   .square4 {
     grid-column:1/2;
@@ -325,6 +369,7 @@
     margin-left: 80px;
     color: #595959;
     margin-top: 10px;
+    width: 275px;
   }
   .selection {
     margin-top: 3000px;
@@ -333,74 +378,85 @@
     grid-template-rows: 30px 90px repeat(3, 27px) 30px 90px 45px repeat(2, 27px) 30px 100px;
     grid-row-gap: 15px;
     left: 16px;
-    overflow-x: hidden;
   }
   .selection_title{
     font-size: 22px;
-line-height: 31px;
+    line-height: 31px;
+    width: 330px;
   }
   .selection_note {
     margin-top: 30px;
     font-size: 18px;
-line-height: 29px;
+    line-height: 29px;
+    width: 320px;
   }
 .selection_note_1{
   font-size: 18px;
-line-height: 25px;
+  line-height: 25px;
+  width: 320px;
 }
 .selection_note_2{
   font-size: 18px;
-line-height: 25px;
+  line-height: 25px;
+  width: 320px;
 }
 .selection_note_3{
   font-size: 18px;
-line-height: 25px;
+  line-height: 25px;
+  width: 320px;
 }
 .selection_note_4{
   font-size: 18px;
-line-height: 29px;
+  line-height: 29px;
+  width: 320px;
 }
 .selection_note_5{
   font-size: 18px;
-line-height: 25px;
+  line-height: 25px;
+  width: 320px;
 }
   .selection_account {
     grid-column: 1/2;
     grid-row: 7/8;
     font-size: 18px;
-line-height: 29px;
-margin-top: 30px;
+    line-height: 29px;
+    margin-top: 30px;
+    width: 320px;
   }
   .selection_account_1{
     font-size: 18px;
-line-height: 25px;
+    line-height: 25px;
     grid-column:1/2;
     grid-row: 8/9;
+    width: 320px;
   }
   .selection_account_2{
     font-size: 18px;
-line-height: 25px;
+    line-height: 25px;
     grid-column:1/2;
     grid-row: 9/10;
+    width: 320px;
   }
   .selection_account_3{
     font-size: 18px;
-line-height: 25px;
+    line-height: 25px;
     grid-column:1/2;
     grid-row: 10/11;
+    width: 320px;
   }
   .selection_account_4{
     font-size: 18px;
-line-height: 29px;
+    line-height: 29px;
     grid-column:1/2;
     grid-row: 11/12;
+    width: 320px;
   }
   .selection_button{
     grid-column:1/2;
     grid-row: 12/13;
     margin-top: 10px;
     width: 354px;
-height: 83px;
+    height: 83px;
   }
   #Brokerage_and_Liquidity{
     margin-top: 3870px;
@@ -414,6 +470,7 @@ height: 83px;
     font-size: 30px;
     line-height: 48px;
     color: #181818;
+    width: 300px;
   }
   .square5 {
     width: 52px;
@@ -425,6 +482,7 @@ height: 83px;
     margin-left: 74px;
     color: #595959;
     margin-top: 7px;
+    width: 200px;
   }
   .square6 {
     width: 52px;
@@ -436,6 +494,7 @@ height: 83px;
     line-height: 25px;
     margin-left: 74px;
     color: #595959;
+    width: 200px;
   }
   .square7 {
     width: 52px;
@@ -448,6 +507,7 @@ height: 83px;
     margin-left: 74px;
     color: #595959;
     margin-top: 12px;
+    width: 200px;
   }
   .square8 {
     width: 45px;
@@ -461,6 +521,7 @@ height: 83px;
     margin-left: 74px;
     color: #595959;
     margin-top: 7px;
+    width: 200px;
   }
   .trading_img1{
     grid-column:1/2;
@@ -475,6 +536,7 @@ height: 83px;
     color: #181818;
     grid-column:1/2;
     grid-row: 7/8;
+    width: 200px;
   }
   .square9 {
     grid-column:1/2;
@@ -490,6 +552,7 @@ height: 83px;
     grid-row: 11/12;
     margin-left: 90px;
     margin-top: 20px;
+    width: 205px;
   }
   .square10 {
     grid-column:1/2;
@@ -505,6 +568,7 @@ height: 83px;
     grid-row: 9/10;
     margin-left: 90px;
     margin-top: 25px;
+    width: 205px;
   }
   .square11 {
     grid-column:1/2;
@@ -520,6 +584,7 @@ height: 83px;
     grid-row: 10/11;
     margin-left: 90px;
     margin-top: 25px;
+    width: 205px;
   }
   .square12 {
     grid-column:1/2;
@@ -535,13 +600,16 @@ height: 83px;
     grid-row: 8/9;
     margin-left: 90px;
     margin-top: 25px;
+    width: 205px;
   }
   .trading_img2{
-    grid-column:1/2;
+    grid-column: 1/2;
     grid-row: 12/13;
-    width: 345px;
+    width: 320px;
     height: 183px;
     margin-top: 25px;
+    position: relative;
+    left: 13px;
   }
   #Partners_Providers{
     margin-top: 5380px;
@@ -610,6 +678,7 @@ height: 83px;
     color: #181818;
     font-size: 22px;
     line-height: 35px;
+    width: 200px;
   }
   .name_input{
     grid-row: 2/3;
@@ -659,12 +728,14 @@ height: 83px;
     font-size: 6px;
     line-height: 11px;
     margin-top: 13px;
+    width: 140px;
   }
   .contact_text2{
     grid-row: 7/8;
     margin-top: 10px;
     font-size: 11px;
     line-height: 16px;
+    width: 205px;
   }
   .footer {
     margin-top: 6380px;

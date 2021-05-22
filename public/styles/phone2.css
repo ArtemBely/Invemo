@@ -1,0 +1,29 @@
+@media (min-width: 360px) and (max-width: 770px) {
+  .wrap_footer {
+    position: relative;
+    left: -25px;
+  }
+  .contact_text {
+    width: 140px;
+  }
+  .wrap_contact {
+    position: relative;
+    left: -53px;
+  }
+  .wrap_partners {
+    position: relative;
+    left: -40px;
+  }
+  .wrap_brokerage {
+    position: relative;
+    left: -50px;
+  }
+  .wrap_selection {
+    position: relative;
+    left: -44px;
+  }
+  .wrap_onboarding {
+    position: relative;
+    left: 20px;
+  }
+}

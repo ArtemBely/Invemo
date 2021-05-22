@@ -1,3 +1,24 @@
+@media (min-width: 1000px) and (max-width: 1025px)  {
+  .wrap_infr {
+    position: relative;
+    left: -33px !important;
+  }
+  #infrastructure_img {
+    left: 130px !important;
+  }
+}
+@media (min-width: 1390px) and (max-width: 1482px) {
+  .header {
+    left: -63px !important;
+  }
+  .features, .features_1, .infrastructure_title, .infrastructure_subtitle, .features_2,
+  .features_3, .features_4, .features_5 {
+    width: 536px !important;
+  }
+  .rectangle4 {
+    width: 619px !important;
+  }
+}
 @media (min-width: 1390px) and (max-width: 1540px) {
   .header {
     left: -63px !important;
@@ -16,6 +37,9 @@
     padding: 30px;
     font-size: 18px;
     left: 1400px;
+  }
+  .wrap_code {
+    left: 110px;
   }
   .showHidden {
     left: 440px !important;
@@ -238,6 +262,7 @@
     grid-row: 2/3;
     margin-top: 40px;
     color: #181818;
+    width: 536px;
   }
   .infrastructure_subtitle{
     font-size: 20px;
@@ -268,6 +293,7 @@
     grid-row: 4/5;
     padding-top: 20px;
     color: #181818;
+    width: 529px;
   }
   .features_img_1{
     width: 62px;
@@ -283,6 +309,7 @@
     margin-left: 0;
     margin-top: 70px;
     color: #595959;
+    width: 529px;
   }
   .features_img_3{
     width: 62px;
@@ -299,6 +326,7 @@
     margin-left: 0;
     margin-top: 70px;
     color: #595959;
+    width: 529px;
   }
   .features_img_5{
     width: 62px;
@@ -315,6 +343,7 @@
     margin-left: 0;
     margin-top: 70px;
     color: #595959;
+    width: 529px;
   }
   .features_img_2{
     width: 62px;
@@ -330,6 +359,7 @@
     margin-left: 0;
     margin-top: 70px;
     color: #595959;
+    width: 529px;
   }
   .features_img_4{
     width: 62px;
@@ -346,6 +376,7 @@
     margin-left: 0;
     margin-top: 70px;
     color: #595959;
+    width: 529px;
   }
   .onboarding {
     display: grid;
