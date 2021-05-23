@@ -4,7 +4,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
   margin-top: 0;
 }
@@ -14,7 +18,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:2;
+  -ms-grid-column-span:1;
   grid-column:2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3/4;
   margin-top: -5px;
 }
@@ -24,7 +32,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:2;
+  -ms-grid-column-span:1;
   grid-column:2/3;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
   grid-row: 4/5;
   margin-top: 0;
 }
@@ -34,7 +46,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:2;
+  -ms-grid-column-span:1;
   grid-column:2/3;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
   grid-row: 5/6;
   margin-top: 0;
 }
@@ -44,35 +60,103 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:2;
+  -ms-grid-column-span:1;
   grid-column:2/3;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
   margin-top: 0;
 }
 .selection_button{
   font-family: 'Muller-Regular';
+  z-index: 1000;
   color: #000000;
   font-size: 22px;
   line-height: 83px;
   font-weight: 400;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
   grid-row: 7/8;
   width: 300px;
   height: 83px;
   border: 1px solid #E30D1A;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align:center;
   text-decoration: none;
   margin-top: 10px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.selection_button:hover {
+  background-color: #E30D1A;
+  color: white;
 }
 #Brokerage_and_Liquidity{
   position: absolute;
   margin-top: 3560px;
   width: 1320px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns:450px 240px 450px;
   grid-template-columns:450px 450px;
+  -ms-grid-rows: 100px 20px 70px 20px 70px 20px 70px 20px 70px 20px 300px;
   grid-template-rows: 100px repeat(4, 70px) 300px;
   grid-column-gap:240px;
   grid-row-gap: 20px;
+}
+#Brokerage_and_Liquidity > *:nth-child(1){
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+#Brokerage_and_Liquidity > *:nth-child(2){
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+#Brokerage_and_Liquidity > *:nth-child(3){
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+#Brokerage_and_Liquidity > *:nth-child(4){
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+#Brokerage_and_Liquidity > *:nth-child(5){
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+#Brokerage_and_Liquidity > *:nth-child(6){
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+#Brokerage_and_Liquidity > *:nth-child(7){
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+}
+#Brokerage_and_Liquidity > *:nth-child(8){
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
+}
+#Brokerage_and_Liquidity > *:nth-child(9){
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+}
+#Brokerage_and_Liquidity > *:nth-child(10){
+  -ms-grid-row: 9;
+  -ms-grid-column: 3;
+}
+#Brokerage_and_Liquidity > *:nth-child(11){
+  -ms-grid-row: 11;
+  -ms-grid-column: 1;
+}
+#Brokerage_and_Liquidity > *:nth-child(12){
+  -ms-grid-row: 11;
+  -ms-grid-column: 3;
 }
 .brokerage_title{
   font-family: 'Muller-Bold';
@@ -80,7 +164,11 @@
   font-size: 70px;
   line-height: 112px;
   font-weight: 700;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   margin: 0;
 }
@@ -90,7 +178,11 @@
   font-size: 70px;
   line-height: 112px;
   font-weight: 700;
+  -ms-grid-column:2;
+  -ms-grid-column-span:1;
   grid-column:2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   margin: 0;
 }
@@ -99,7 +191,11 @@
   display:inline-block ;
   width: 70px;
   height: 70px;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
   grid-row: 2/3;
 }
 .brokerage_text1 {
@@ -108,7 +204,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
   grid-row: 2/3;
   margin-left: 90px;
   margin-top: 20px;
@@ -118,7 +218,11 @@
   display:inline-block ;
   width: 70px;
   height: 70px;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3/4;
 }
 .brokerage_text2 {
@@ -127,7 +231,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3/4;
   margin-left: 90px;
   margin-top: 7px;
@@ -138,7 +246,11 @@
   width: 50px;
   height: 50px;
   background: #C4C4C4;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
   grid-row: 4/5;
   margin-left: 10px;
   margin-top: 10px;
@@ -149,7 +261,11 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
   grid-row: 4/5;
   margin-left: 90px;
   margin-top: 22px;
@@ -159,7 +275,11 @@
   display:inline-block ;
   width: 70px;
   height: 70px;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
   grid-row: 5/6;
 }
 .brokerage_text4 {
@@ -168,20 +288,32 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
   grid-row: 5/6;
   margin-left: 90px;
   margin-top: 20px;
 }
 .trading_img1{
+  -ms-grid-column:1;
+  -ms-grid-column-span:1;
   grid-column:1/2;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
   width: 516px;
   height: 273px;
   margin-top: 20px;
 }
 .trading_img2{
+  -ms-grid-column:2;
+  -ms-grid-column-span:1;
   grid-column:2/3;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
   grid-row: 6/7;
   width: 516px;
   height: 273px;
