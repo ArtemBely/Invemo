@@ -11,11 +11,19 @@
     <link rel="stylesheet" href="./public/styles/style5.css">
     <link rel="stylesheet" href="./public/styles/style6.css">
     <link rel="stylesheet" href="./public/styles/tablet.css">
+    <link rel="stylesheet" href="./public/styles/tablet2.css">
     <link rel="stylesheet" href="./public/styles/phone.css">
     <link rel="stylesheet" href="./public/styles/phone2.css">
   </head>
   <body>
     <div class="wrap_container">
+      <div class="hiddenMenu" id='hiddenMenu1'>
+          <a href="#Asset_Management" class="mobile_header_link" id="link11">Asset Management</a>
+          <a href="#Brokerage_and_Liquidity" class="mobile_header_link" id="link22">Brokerage</a>
+          <a href="#Brokerage_and_Liquidity" class="mobile_header_link" id="link33">Liquidity</a>
+          <a href="#" class="mobile_header_link" id="link44">Key Advantages</a>
+          <a href="#Partners_Providers" class="mobile_header_link" id="link55">Partners & Providers</a>
+      </div>
       <div class="contacts1" id='header_main'>
         <img src="public/images/Frame.svg" class="header_logo"/>
         <img src="public/images/Invemo.svg" class="header_logo_name"/>
@@ -31,13 +39,8 @@
           <p class="close_el" id='close2'></p>
           <p class="close_el" id='close3'></p>
         </div>
-        <div class="hiddenMenu" id='hiddenMenu1'>
-            <a href="#Asset_Management" class="mobile_header_link" id="link11">Asset Management</a>
-            <a href="#Brokerage_and_Liquidity" class="mobile_header_link" id="link22">Brokerage</a>
-            <a href="#Brokerage_and_Liquidity" class="mobile_header_link" id="link33">Liquidity</a>
-            <a href="#" class="mobile_header_link" id="link44">Key Advantages</a>
-            <a href="#Partners_Providers" class="mobile_header_link" id="link55">Partners & Providers</a>
-        </div>
+
+
         <div class="main">
           <p class="main_title">Invest in digital economy   like<br class="br_3"/> Forbes 100 ultra-high  net<br class="br_3"/> worth individuals with  a Swiss<br class="br_3"/> asset manager</p>
           <a href="#" class="main_button1">Send inquiry</a>
@@ -63,7 +66,9 @@
 
       <div class="wrap_infr">
       <div class="infrastructure">
-        <div class='wrap_code'><img src="public/images/Group 482.png" id="infrastructure_img"/></div>
+        <div class='wrap_code'>
+          <img src="public/images/Group 482.png" id="infrastructure_img"/>
+        </div>
         <h2 class="infrastructure_title">Cutting edge IT infrastructure</h2>
         <p class="infrastructure_subtitle">State of the art trading software developed<br class="br_5"/> by our <br class="br_1"/> in-house development team enables the<br class="br_5"/> execution <br class="br_1"/> of the most sophisticated algorithmic<br class="br_5"/> trading <br class="br_1"/> strategies across multiple exchanges.</p>
         <p class="features">Software features include</p>
@@ -135,12 +140,12 @@
       <div class="wrap_contact">
       <div class="contact">
         <h4 class="contact_title">Contact</h4>
-        <form action="#">
+        <form action="mail.php" method="POST" enctype="multipart/form-data">
           <input type="text" name="username" placeholder="Please introduce yourself" class="name_input"/>
           <input type="email" name="usermail" placeholder="Email" class="mail_input"/>
           <input type="tel" name="userphone" placeholder="Telephone number" class="phone_input"/>
           <textarea type="text" name="text" placeholder="Text of the message" class="text_input"></textarea>
-          <button class="contact_button">Send</button>
+          <button type='submit' class="contact_button">Send</button>
         </form>
         <p class="contact_text">Нажимая на кнопку «Send», вы даёте согласие <br/>с Политикой конфиденциальности <br/> и политикой обработки данных</p>
         <p class="contact_text2">Для отправки, заполните поля формы</p>
