@@ -32,6 +32,9 @@
     width: 680px;
     top: 6px;
   }
+  .asset, .wrap_infr, .wrap_onboarding, .wrap_selection, .wrap_brokerage, .wrap_partners, .wrap_contact, .wrap_footer {
+    z-index: 1000 !important;
+  }
   .wrap_code::before {
       content: '';
       position: absolute;
@@ -310,7 +313,7 @@
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1/2;
-    width: 352px;
+    width: 364px;
     height: 179%;
     margin-left: 0px !important;
   }
@@ -325,7 +328,7 @@
     grid-row: 2/3;
     color: #181818;
     margin-top: 0;
-    width: 334px;
+    width: 364px;
   }
   .infrastructure_subtitle{
     font-size: 16px;
@@ -524,7 +527,7 @@
     -ms-grid-row-span: 1;
     grid-row: 2/3;
     color: #181818;
-    width: 310px;
+    width: 340px;
   }
   .onboarding_img{
     width: 354px;

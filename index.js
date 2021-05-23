@@ -21,3 +21,25 @@ close.addEventListener('click', () => {
   close3.classList.toggle('rotate_close3');
   hidd.classList.toggle('showHidden');
 });
+
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("#order_our").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("Ваша заявка успешно принята!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+});

@@ -25,6 +25,9 @@
   font-weight: normal;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Muller-Regular';
   box-sizing: border-box;

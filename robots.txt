@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /public/
+Disallow: /phpmailer/
+Disallow: /mail.php
+Disallow: /index.js
+Allow: /index.html
