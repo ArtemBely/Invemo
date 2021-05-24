@@ -89,9 +89,9 @@
   font-weight: 400;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .asset_button:hover {
   background-color: #E30D1A;

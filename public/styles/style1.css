@@ -204,6 +204,9 @@ body{
   font-size: 25px;
   line-height: 83px;
   font-weight: 400;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .main_button2{
   margin-left: 260px;
@@ -223,6 +226,9 @@ body{
   font-size: 25px;
   line-height: 83px;
   font-weight: 400;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .main_button1:hover, .main_button2:hover, .asset_button:hover {
   background-color: #E30D1A;

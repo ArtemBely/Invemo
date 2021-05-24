@@ -114,3 +114,34 @@
   grid-column:8/9;
   width: 169px;
 }
+#first_sponsor {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+.wrap_sponsor {
+  width: 353px;
+  height: 181px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid #e4e8ee;
+  border-radius: 11px;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.wrap_sponsor:hover {
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .12);
+          box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .12);
+}

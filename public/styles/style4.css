@@ -89,9 +89,9 @@
   text-align:center;
   text-decoration: none;
   margin-top: 10px;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .selection_button:hover {
   background-color: #E30D1A;

@@ -41,5 +41,17 @@ $(document).ready(function() {
 		});
 		return false;
 	});
+});
 
+var cont = document.getElementById('cont_wrap');
+
+document.querySelectorAll('.mobile_header_link').forEach(item => {
+  item.addEventListener('click', () => {
+    if(320 < window.innerWidth < 770) {
+      cont.style.opacity = 0;
+      setTimeout(() => {
+        cont.style.opacity = 1;
+      }, 100);
+    }
+  });
 });
