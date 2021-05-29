@@ -93,9 +93,6 @@
   .features_3, .features_4, .features_5 {
     width: 536px !important;
   }
-  .rectangle4 {
-    width: 606px !important;
-  }
 }
 @media (min-width: 1390px) and (max-width: 1540px) {
   .header {
@@ -320,7 +317,6 @@
   }
     .wrap_container{
       height: 660px;
-      overflow-x: hidden;
     }
     .main_button1{
       border: 0.68px solid #E30D1A;
@@ -359,6 +355,7 @@
       -ms-grid-rows: 40px 30px 90px 30px 70px 30px 150px 30px 170px 30px 180px 30px 93px;
       grid-template-rows: 40px 90px 70px 150px 170px 180px 93px;
       grid-row-gap: 30px;
+      z-index: 1000;
     }
     .asset > *:nth-child(1) {
       -ms-grid-row: 1;

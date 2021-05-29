@@ -1,8 +1,8 @@
 .rectangle1{
   position: absolute;
   display:inline-block ;
-  width: 233px;
-  height: 51px;
+  width: 690px;
+  height: 150px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -24,21 +24,22 @@
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
-  margin-top: 2px;
-  margin-left: 260px;
+  margin-top: 355px;
+  margin-left: 0;
 }
 .rectangle2{
   position: absolute;
   display:inline-block ;
-  width: 233px;
-  height: 51px;
+  width: 690px;
+  height: 150px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
-  margin-top: 8px;
+  margin-top: 178px;
+  left: -5px;
 }
 .asset_strategies_3{
   font-family: 'Muller-Regular';
@@ -52,21 +53,21 @@
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
-  margin-top: 2px;
-  margin-left: 260px;
+  margin-top: 529px;
+  margin-left: 0;
 }
 .rectangle3{
   position: absolute;
   display:inline-block ;
-  width: 233px;
-  height: 51px;
+  width: 690px;
+  height: 150px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
   -ms-grid-row: 6;
   -ms-grid-row-span: 1;
   grid-row: 6/7;
-  margin-top: 8px;
+  margin-top: 351px;
 }
 .asset_button{
   margin-top: 10px;
@@ -81,6 +82,7 @@
   border: 1px solid #E30D1A;
   text-align:center;
   width: 300px;
+  display: none;
   height: 83px;
   font-family: 'Muller-Regular';
   color: #000000;
@@ -104,8 +106,6 @@
   -ms-grid-row: 2;
   -ms-grid-row-span: 6;
   grid-row: 2/8;
-  width: 640px;
-  height: 715px;
   margin-top: 5px;
 }
 .br_1{
@@ -412,4 +412,29 @@
   grid-row: 8/9;
   margin-left: 90px;
   margin-top: 8px;
+}
+.wrap_infr, .wrap_onboarding, .wrap_selection, .wrap_brokerage,
+.wrap_partners, .wrap_contact, .wrap_footer {
+  top: 400px;
+  position: relative;
+}
+.wrap_footer {
+  z-index: -1;
+}
+.downStr {
+  position: relative;
+  width: 16px;
+  cursor: pointer;
+}
+#downstr1 {
+  top: 287px;
+  left: 667px;
+}
+#downstr3 {
+  top: 607px;
+  left: -78px;
+}
+#downstr2 {
+  left: 663px;
+  top: 125px;
 }

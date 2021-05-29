@@ -55,3 +55,14 @@ document.querySelectorAll('.mobile_header_link').forEach(item => {
     }
   });
 });
+
+document.querySelectorAll('.m_but').forEach(item => {
+  item.addEventListener('click', () => {
+    if(320 < window.innerWidth < 770) {
+      cont.style.zIndex = '-1000';
+      setTimeout(() => {
+        cont.style.zIndex = 1;
+      }, 10);
+    }
+  });
+});

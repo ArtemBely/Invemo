@@ -1,15 +1,115 @@
-@media (min-width: 320px) and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 366px) {
   .wrap_footer {
-    left: -29px !important;
+    left: -23px !important;
+  }
+  .footer_address {
+    margin-left: -112px !important;
+  }
+  .onboarding {
+    width: 287px !important;
+  }
+  .onboarding_title {
+    left: 8px !important;
+    position: relative;
+  }
+  .name_input, .mail_input, .phone_input, .text_input {
+    width: 340px !important;
+  }
+  .footer_mail {
+    margin-left: -214px !important;
+  }
+  .footer_logo {
+    margin-left: -105px !important;
+  }
+  .footer_logo_name {
+    margin-left: 16px !important;
+  }
+  #link6 {
+    margin-left: 28px !important;
+  }
+  #link8 {
+    margin-left: -62px !important;
+  }
+  #link9 {
+    width: 123px !important;
+    margin-left: 38px !important;
+  }
+  #link10 {
+    margin-left: 35px !important;
   }
   .infrastructure {
-    left: 55px;
+    left: 55px !important;
   }
   .wrap_code, #infrastructure_img {
     width: 335px !important;
   }
+  .onboarding_img {
+    position: relative;
+    width: 335px !important;
+    top: 12px !important;
+    height: 227px !important;
+    left: 7px !important;
+  }
   .wrap_code {
-    left: 11px !important
+    left: 44px !important;
+    top: -14px !important;
+  }
+  .contact {
+    left: 33px !important;
+  }
+  #Partners_Providers {
+    left: 33px !important;
+  }
+  #Brokerage_and_Liquidity {
+    left: 23px !important;
+  }
+  .wrap_brokerage {
+    left: -44px !important;
+  }
+  .wrap_selection {
+    left: 36px !important;
+  }
+  .selection {
+    left: -55px !important;
+  }
+  .wrap_onboarding {
+    left: 30px !important;
+  }
+  .wrap_infr {
+    left: -80px !important;
+  }
+  .onbt {
+    width: 268px !important;
+  }
+  .selection_button {
+    width: 342px !important;
+  }
+  .features_1, .features_2, .features_3, .features_4, .features_5 {
+    width: 260px !important;
+    left: 54px !important;
+    position: relative;
+  }
+  .partners_title {
+    width: 217px !important;
+  }
+  .features {
+    left: 65px !important;
+    position: relative;
+  }
+  .feaimgco {
+    margin-left: 62px !important;
+  }
+  .infrastructure_subtitle {
+    margin-top: -44px !important;
+    width: 330px !important;
+    left: 67px !important;
+    position: relative;
+  }
+  .infrastructure_title {
+    margin-top: -25px !important;
+    width: 337px !important;
+    position: relative;
+    left: 65px !important;
   }
 }
 @media (min-width: 360px) and (max-width: 374px) {
@@ -926,6 +1026,8 @@
     -ms-grid-row-span: 1;
     grid-row: 7/8;
     width: 200px;
+    position: relative;
+    left: 8px;
   }
   .square9 {
     -ms-grid-column:1;
