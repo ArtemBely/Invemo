@@ -103,59 +103,59 @@
   width: 1320px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns:450px 240px 450px;
-  grid-template-columns:450px 450px;
-  -ms-grid-rows: 100px 20px 70px 20px 70px 20px 70px 20px 70px 20px 300px;
-  grid-template-rows: 100px repeat(4, 70px) 300px;
-  grid-column-gap:240px;
+  -ms-grid-columns:750px 115px 440px;
+  grid-template-columns:750px 440px;
+  -ms-grid-rows: 112px 20px 70px 20px 75px 20px  190px 20px 112px 20px 70px 20px 80px 20px 100px;
+  grid-template-rows: 112px 70px 75px  190px 112px 70px 80px 100px ;
+  grid-column-gap:115px;
   grid-row-gap: 20px;
-}
-#Brokerage_and_Liquidity > *:nth-child(1){
+}#Brokerage_and_Liquidity > *:nth-child(1){
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-}
-#Brokerage_and_Liquidity > *:nth-child(2){
+}#Brokerage_and_Liquidity > *:nth-child(2){
   -ms-grid-row: 1;
   -ms-grid-column: 3;
-}
-#Brokerage_and_Liquidity > *:nth-child(3){
+}#Brokerage_and_Liquidity > *:nth-child(3){
   -ms-grid-row: 3;
   -ms-grid-column: 1;
-}
-#Brokerage_and_Liquidity > *:nth-child(4){
+}#Brokerage_and_Liquidity > *:nth-child(4){
   -ms-grid-row: 3;
   -ms-grid-column: 3;
-}
-#Brokerage_and_Liquidity > *:nth-child(5){
+}#Brokerage_and_Liquidity > *:nth-child(5){
   -ms-grid-row: 5;
   -ms-grid-column: 1;
-}
-#Brokerage_and_Liquidity > *:nth-child(6){
+}#Brokerage_and_Liquidity > *:nth-child(6){
   -ms-grid-row: 5;
   -ms-grid-column: 3;
-}
-#Brokerage_and_Liquidity > *:nth-child(7){
+}#Brokerage_and_Liquidity > *:nth-child(7){
   -ms-grid-row: 7;
   -ms-grid-column: 1;
-}
-#Brokerage_and_Liquidity > *:nth-child(8){
+}#Brokerage_and_Liquidity > *:nth-child(8){
   -ms-grid-row: 7;
   -ms-grid-column: 3;
-}
-#Brokerage_and_Liquidity > *:nth-child(9){
+}#Brokerage_and_Liquidity > *:nth-child(9){
   -ms-grid-row: 9;
   -ms-grid-column: 1;
-}
-#Brokerage_and_Liquidity > *:nth-child(10){
+}#Brokerage_and_Liquidity > *:nth-child(10){
   -ms-grid-row: 9;
   -ms-grid-column: 3;
-}
-#Brokerage_and_Liquidity > *:nth-child(11){
+}#Brokerage_and_Liquidity > *:nth-child(11){
   -ms-grid-row: 11;
   -ms-grid-column: 1;
-}
-#Brokerage_and_Liquidity > *:nth-child(12){
+}#Brokerage_and_Liquidity > *:nth-child(12){
   -ms-grid-row: 11;
+  -ms-grid-column: 3;
+}#Brokerage_and_Liquidity > *:nth-child(13){
+  -ms-grid-row: 13;
+  -ms-grid-column: 1;
+}#Brokerage_and_Liquidity > *:nth-child(14){
+  -ms-grid-row: 13;
+  -ms-grid-column: 3;
+}#Brokerage_and_Liquidity > *:nth-child(15){
+  -ms-grid-row: 15;
+  -ms-grid-column: 1;
+}#Brokerage_and_Liquidity > *:nth-child(16){
+  -ms-grid-row: 15;
   -ms-grid-column: 3;
 }
 .brokerage_title{
@@ -172,31 +172,59 @@
   grid-row: 1/2;
   margin: 0;
 }
+.brokerage_subtitle{
+    font-family: 'Muller-Regular';
+    color: #000000;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+    -ms-grid-column:1;
+    -ms-grid-column-span:1;
+    grid-column:1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    margin: 0;
+}
+.liquidity_subtitle{
+  font-family: 'Muller-Regular';
+    color: #000000;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+    -ms-grid-column:1;
+    -ms-grid-column-span:1;
+    grid-column:1/2;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6/7;
+    margin: 0;
+}
 .liquidity_title{
   font-family: 'Muller-Bold';
   color: #000000;
   font-size: 70px;
   line-height: 112px;
   font-weight: 700;
-  -ms-grid-column:2;
+  -ms-grid-column:1;
   -ms-grid-column-span:1;
-  grid-column:2/3;
-  -ms-grid-row: 1;
+  grid-column:1/2;
+  -ms-grid-row: 5;
   -ms-grid-row-span: 1;
-  grid-row: 1/2;
+  grid-row: 5/6;
   margin: 0;
 }
 .square5 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 57px;
+  height: 57px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 .brokerage_text1 {
   font-family: 'Muller-Regular';
@@ -207,23 +235,23 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 2;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 2/3;
-  margin-left: 90px;
+  grid-row: 3/4;
+  margin-left: 80px;
   margin-top: 20px;
 }
 .square6 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 3/4;
+  grid-row: 4/5;
 }
 .brokerage_text2 {
   font-family: 'Muller-Regular';
@@ -234,10 +262,10 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 3/4;
-  margin-left: 90px;
+  grid-row: 4/5;
+  margin-left: 80px;
   margin-top: 7px;
 }
 .square7 {
@@ -249,10 +277,10 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 4;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 4/5;
-  margin-left: 10px;
+  grid-row: 3/4;
+  margin-left: 400px;
   margin-top: 10px;
 }
 .brokerage_text3 {
@@ -264,23 +292,24 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 4;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 4/5;
-  margin-left: 90px;
+  grid-row: 3/4;
+  margin-left: 480px;
   margin-top: 22px;
 }
 .square8 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 5;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 5/6;
+  grid-row: 4/5;
+  margin-left: 400px;
 }
 .brokerage_text4 {
   font-family: 'Muller-Regular';
@@ -291,31 +320,32 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 5;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 5/6;
-  margin-left: 90px;
+  grid-row: 4/5;
+  margin-left: 480px;
   margin-top: 20px;
 }
 .trading_img1{
-  -ms-grid-column:1;
+  -ms-grid-column:2;
   -ms-grid-column-span:1;
-  grid-column:1/2;
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  grid-row: 6/7;
-  width: 516px;
-  height: 273px;
-  margin-top: 20px;
+  grid-column:2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+  width: 429px;
+  height: 226px;
+  margin-top: 0px;
 }
 .trading_img2{
   -ms-grid-column:2;
   -ms-grid-column-span:1;
   grid-column:2/3;
-  -ms-grid-row: 6;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 6/7;
-  width: 516px;
-  height: 273px;
-  margin-top: 20px;
+  grid-row: 4/5;
+  width: 429px;
+  height: 342px;
+  margin-top: 80px;
+  margin-left: 10px;
 }

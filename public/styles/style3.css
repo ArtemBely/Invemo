@@ -4,8 +4,8 @@
   width: 1320px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns:580px 15px 730px;
-  grid-template-columns:580px 730px;
+  -ms-grid-columns:530px 15px 730px;
+  grid-template-columns:530px 730px;
   -ms-grid-rows: 100px 25px 70px 25px 70px 25px 70px 25px 70px;
   grid-template-rows: 100px repeat(4, 70px);
   grid-column-gap:15px;
@@ -68,8 +68,8 @@
 .square1 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 54px;
+  height: 51px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -77,6 +77,7 @@
   -ms-grid-row-span: 1;
   grid-row: 2/3;
   margin-left: -15px;
+  margin-top: 5px;
 }
 .onboarding_text1 {
   font-family: 'Muller-Regular';
@@ -90,20 +91,21 @@
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  margin-left: 93px;
+  margin-left: 75px;
   margin-top: 4px;
 }
 .square2 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 44px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3/4;
+  margin-top: 15px;
 }
 .onboarding_text2 {
   font-family: 'Muller-Regular';
@@ -117,20 +119,21 @@
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   grid-row: 3/4;
-  margin-left: 93px;
+  margin-left: 75px;
   margin-top: 4px;
 }
 .square3 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/5;
+  margin-top: 5px;
 }
 .onboarding_text3 {
   font-family: 'Muller-Regular';
@@ -144,20 +147,21 @@
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/5;
-  margin-left: 93px;
+  margin-left: 75px;
   margin-top: 4px;
 }
 .square4 {
   position: absolute;
   display:inline-block ;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 54px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
+  margin-top: 5px;
 }
 .onboarding_text4 {
   font-family: 'Muller-Regular';
@@ -171,7 +175,7 @@
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
-  margin-left: 93px;
+  margin-left: 75px;
   margin-top: 4px;
 }
 .selection {
