@@ -420,7 +420,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 650px;
+    margin-top: 570px;
     width: 300px;
     left: 121px;
     -ms-grid-columns:415px;
@@ -635,7 +635,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 1900px;
+    margin-top: 1860px;
     width: 300px;
     -ms-grid-columns:400px;
     grid-template-columns:400px;
@@ -779,7 +779,7 @@
     width: 275px;
   }
   .selection {
-    margin-top: 2800px;
+    margin-top: 2700px;
     width: 300px;
     -ms-grid-columns: 400px;
     grid-template-columns: 400px;
@@ -839,7 +839,7 @@
     font-size: 18px;
   }
   #Brokerage_and_Liquidity{
-    margin-top: 3600px;
+    margin-top: 3410px;
     width: 300px;
     left: 19px;
     -ms-grid-columns:320px;
@@ -1129,7 +1129,7 @@
     margin-top: 100px;
   }
   #Partners_Providers{
-    margin-top: 5450px;
+    margin-top: 5250px;
     left: 20px;
     width: 300px;
     -ms-grid-columns:162px 13px 162px;
@@ -1240,7 +1240,7 @@
     margin-left: -10px;
   }
   .contact{
-    margin-top: 5970px;
+    margin-top: 5750px;
     width: 300px;
     -ms-grid-columns:400px;
     grid-template-columns:400px;
@@ -1359,7 +1359,7 @@
     width: 205px;
   }
   .footer {
-    margin-top: 6450px;
+    margin-top: 6230px;
     width: 300px;
     left: -26px;
     -ms-grid-columns: 145px 48px 150px;
@@ -1493,7 +1493,7 @@
       margin-left: 0px;
       width: 150px;
     }
-    #link11{
+    #link16{
       -ms-grid-column:2;
       -ms-grid-column-span:1;
       grid-column:2/3;
