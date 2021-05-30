@@ -4,13 +4,8 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
-  -ms-grid-column:1;
-  -ms-grid-column-span:1;
-  grid-column:1/2;
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  grid-row: 6/7;
   margin-top: 0;
+  padding: 15px 0;
 }
 .selection_account_1{
   font-family: 'Muller-Regular';
@@ -18,13 +13,8 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
-  -ms-grid-column:2;
-  -ms-grid-column-span:1;
-  grid-column:2/3;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
   margin-top: -5px;
+  padding-left: 63px;
 }
 .selection_account_2{
   font-family: 'Muller-Regular';
@@ -32,13 +22,8 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
-  -ms-grid-column:2;
-  -ms-grid-column-span:1;
-  grid-column:2/3;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-  grid-row: 4/5;
   margin-top: 0;
+  padding-left: 63px;
 }
 .selection_account_3{
   font-family: 'Muller-Regular';
@@ -46,13 +31,8 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
-  -ms-grid-column:2;
-  -ms-grid-column-span:1;
-  grid-column:2/3;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 1;
-  grid-row: 5/6;
   margin-top: 0;
+  padding-left: 63px;
 }
 .selection_account_4{
   font-family: 'Muller-Regular';
@@ -60,13 +40,8 @@
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
-  -ms-grid-column:2;
-  -ms-grid-column-span:1;
-  grid-column:2/3;
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 1;
-  grid-row: 6/7;
   margin-top: 0;
+  padding-left: 63px;
 }
 .selection_button{
   font-family: 'Muller-Regular';
@@ -78,9 +53,9 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 7;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 7/8;
+  grid-row: 3/4;
   width: 300px;
   height: 83px;
   border: 1px solid #E30D1A;
@@ -88,7 +63,7 @@
           box-sizing: border-box;
   text-align:center;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -99,7 +74,7 @@
 }
 #Brokerage_and_Liquidity{
   position: absolute;
-  margin-top: 3560px;
+  margin-top: 3660px;
   width: 1320px;
   display: -ms-grid;
   display: grid;
@@ -348,4 +323,10 @@
   height: 342px;
   margin-top: 80px;
   margin-left: 10px;
+}
+.trading_img3{
+  display: none;
+}
+.trading_img4{
+  display: none;
 }

@@ -110,7 +110,7 @@
 }
 #Partners_Providers{
   position: absolute;
-  margin-top: 4710px;
+  margin-top: 4900px;
   width: 1320px;
   display: -ms-grid;
   display: grid;
@@ -227,7 +227,7 @@
 }
 .contact{
   position: absolute;
-  margin-top: 5530px;
+  margin-top: 5750px;
   width: 1320px;
   z-index: 1000;
   display: -ms-grid;
