@@ -1,3 +1,25 @@
+@media (min-width: 320px) and (max-width: 360px) {
+  table {
+    width: 335px !important;
+  }
+  .selection_button {
+    margin-top: 43px !important;
+  }
+  #link8 {
+    margin-left: -166px !important;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  #link7, #link9, #link10 {
+    margin-left: 27px !important;
+  }
+  .footer_address {
+    left: 139px !important;
+    position: relative;
+    width: 224px
+  }
+}
 @media (min-width: 320px) and (max-width: 800px) {
   #close1, #close2, #close3 {
     width: 30px !important;
@@ -44,7 +66,7 @@
     -ms-grid-rows:26px 16px 26px 16px 26px 16px 26px 16px 26px 16px 29px 16px 29px 16px 29px 16px 29px 16px 29px 16px 50px 16px 29px;
     grid-template-rows:repeat(5,26px) repeat(5,29px) 50px 29px;
     grid-row-gap: 16px;
-    height: 558px;
+    height: 355px;
     width: 273px;
     padding: 17px 26px;
     border: 1px solid #000000;
@@ -162,29 +184,27 @@
   }
   #link222 {
     left: 0px !important;
-    -ms-grid-row: 12;
+    -ms-grid-row: 8;
     -ms-grid-row-span: 1;
-    grid-row: 12/13;
+    grid-row: 8/9;
     color: #808080;
+    top: -10px;
+    position: relative;
   }
   .mobile_img1{
     left: 0px !important;
-    width: 26px;
-    height: 26px;
-    -ms-grid-row: 11;
+    -ms-grid-row: 6;
     -ms-grid-row-span: 1;
-    grid-row: 11/12;
+    grid-row: 6/7;
     margin-top: 25px;
   }
   .mobile_img2{
     left: 0px !important;
-    width: 26px;
-    height: 26px;
-    -ms-grid-row: 11;
+    -ms-grid-row: 6;
     -ms-grid-row-span: 1;
-    grid-row: 11/12;
+    grid-row: 6/7;
     margin-left: -160px;
-    margin-top: 25px;
+    margin-top: 18px;
   }
   .showHidden {
     position: absolute !important;
@@ -210,7 +230,7 @@
     }
   .wrap_footer {
     position: relative;
-    left: -25px;
+    left: 23px;
     z-index: -1 !important;
   }
   .contact_text {
@@ -218,11 +238,9 @@
   }
   .wrap_contact {
     position: relative;
-    left: -53px;
   }
   .wrap_partners {
     position: relative;
-    left: -40px;
   }
   .wrap_brokerage {
     position: relative;

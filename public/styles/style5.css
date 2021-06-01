@@ -1,8 +1,6 @@
 .square9 {
   position: absolute;
   display:inline-block ;
-  width: 47px;
-  height: 53px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -28,8 +26,6 @@
 .square10 {
   position: absolute;
   display:inline-block ;
-  width: 55px;
-  height: 50px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -55,8 +51,6 @@
 .square11 {
   position: absolute;
   display:inline-block ;
-  width: 54px;
-  height: 48px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -83,8 +77,6 @@
 .square12 {
   position: absolute;
   display:inline-block ;
-  width: 54px;
-  height: 54px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -108,9 +100,9 @@
   margin-left: 480px;
   margin-top: 20px;
 }
-#Partners_Providers{
+#partners_Providers{
   position: absolute;
-  margin-top: 4900px;
+  margin-top: 4400px;
   width: 1320px;
   display: -ms-grid;
   display: grid;
@@ -121,39 +113,39 @@
   grid-row-gap: 30px;
   grid-column-gap: 30px;
 }
-#Partners_Providers > *:nth-child(1){
+#partners_Providers > *:nth-child(1){
   -ms-grid-row: 1;
   -ms-grid-column: 1;
 }
-#Partners_Providers > *:nth-child(2){
+#partners_Providers > *:nth-child(2){
   -ms-grid-row: 1;
   -ms-grid-column: 3;
 }
-#Partners_Providers > *:nth-child(3){
+#partners_Providers > *:nth-child(3){
   -ms-grid-row: 1;
   -ms-grid-column: 5;
 }
-#Partners_Providers > *:nth-child(4){
+#partners_Providers > *:nth-child(4){
   -ms-grid-row: 3;
   -ms-grid-column: 1;
 }
-#Partners_Providers > *:nth-child(5){
+#partners_Providers > *:nth-child(5){
   -ms-grid-row: 3;
   -ms-grid-column: 3;
 }
-#Partners_Providers > *:nth-child(6){
+#partners_Providers > *:nth-child(6){
   -ms-grid-row: 3;
   -ms-grid-column: 5;
 }
-#Partners_Providers > *:nth-child(7){
+#partners_Providers > *:nth-child(7){
   -ms-grid-row: 5;
   -ms-grid-column: 1;
 }
-#Partners_Providers > *:nth-child(8){
+#partners_Providers > *:nth-child(8){
   -ms-grid-row: 5;
   -ms-grid-column: 3;
 }
-#Partners_Providers > *:nth-child(9){
+#partners_Providers > *:nth-child(9){
   -ms-grid-row: 5;
   -ms-grid-column: 5;
 }
@@ -227,9 +219,9 @@
 }
 .contact{
   position: absolute;
-  margin-top: 5750px;
+  margin-top: 5250px;
   width: 1320px;
-  z-index: 1000;
+  z-index: 999;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns:630px 30px 630px;

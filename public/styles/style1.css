@@ -57,7 +57,7 @@ body{
   position: relative;
 }
 .wrap_container{
-  background-image: url('../images/Group\ 362.png');
+  background-image: url('../images/Слой 3 1-min.png');
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,13 +138,17 @@ body{
   -ms-grid-column:7;
   -ms-grid-column-span:1;
   grid-column:7/8;
-  width: 134px;
+  width: 172px;
+  position: relative;
+  left: 22px;
 }
 #link5{
   -ms-grid-column:8;
   -ms-grid-column-span:1;
   grid-column:8/9;
-  width: 169px;
+  width: 71px;
+  position: relative;
+  left: -10px;
 }
 .main{
   position: absolute;
@@ -244,6 +248,7 @@ body{
   -ms-grid-column-span:1;
   grid-column:2/3;
   margin: 0;
+  top: 20px;
   position: relative;
   left: 20px;
   z-index: -1;

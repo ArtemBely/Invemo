@@ -14,13 +14,13 @@
   .contact_text {
     width: 296px !important;
   }
-  .contact, #Brokerage_and_Liquidity {
+  .contact, #brokerage_and_Liquidity {
     padding-left: 127px !important;
   }
   .footer {
     padding-left: 89px !important;
   }
-  #Partners_Providers, .selection {
+  #partners_Providers, .selection {
     padding-left: 117px !important;
   }
   .asset_subtitle {
@@ -157,6 +157,9 @@
   }
 }
 @media (min-width: 770px) and (max-width: 1390px) {
+  #mod1, #mod2, #mod3, #mod4, #mod5 {
+    width: 565px;
+  }
   .header{
     width: 770px;
   }
@@ -170,7 +173,7 @@
     grid-row-gap: 16px;
     position: absolute;
     background: #FFFFFF;
-    height: 558px;
+    height: 355px;
     width: 273px;
     padding: 17px 26px;
     font-size: 16px;
@@ -299,30 +302,27 @@
     color: #808080;
   }
   #link222 {
+    top: -10px;
     left: 0px !important;
-    -ms-grid-row: 12;
+    -ms-grid-row: 8;
     -ms-grid-row-span: 1;
-    grid-row: 12/13;
+    grid-row: 8/9;
     color: #808080;
   }
   .mobile_img1{
     left: 0px !important;
-    width: 26px;
-    height: 26px;
-    -ms-grid-row: 11;
-    -ms-grid-row-span: 1;
-    grid-row: 11/12;
     margin-top: 25px;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6/7;
   }
   .mobile_img2{
     left: 0px !important;
-    width: 26px;
-    height: 26px;
-    -ms-grid-row: 11;
-    -ms-grid-row-span: 1;
-    grid-row: 11/12;
     margin-left: -160px;
-    margin-top: 25px;
+    margin-top: 18px;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 1;
+    grid-row: 6/7;
   }
   .mobile_header_link {
     color: #000000;
@@ -437,6 +437,7 @@
     .main_text{
       font-size: 16px;
       line-height: 26px;
+      top: 7px;
   }
     .wrap_container{
       height: 660px;
@@ -478,7 +479,7 @@
       -ms-grid-rows: 40px 30px 90px 30px 70px 30px 150px 30px 64px 30px 150px 30px 64px 30px 150px 30px 64px;
       grid-template-rows: 40px 90px 70px 150px 64px 150px 64px 150px 64px ;
       grid-row-gap: 30px;
-      z-index: 1000;
+      z-index: 999;
     }    .asset > *:nth-child(1) {
       -ms-grid-row: 1;
       -ms-grid-column: 1;
@@ -930,7 +931,6 @@
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
-    margin-left: -15px;
   }
   .onboarding_text1 {
     font-size: 20px;
@@ -952,6 +952,7 @@
     -ms-grid-row: 4;
     -ms-grid-row-span: 1;
     grid-row: 4/5;
+    left: -22px;
   }
   .onboarding_text3 {
     font-size: 20px;
@@ -973,6 +974,7 @@
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
+    left: -34px;
   }
   .onboarding_text2 {
     font-size: 20px;
@@ -1064,7 +1066,7 @@
     margin-top: 20px;
     font-size: 20px;
   }
-  #Brokerage_and_Liquidity{
+  #brokerage_and_Liquidity{
     padding-left: 62px;
     margin-top: 4720px;
     width: 770px;
@@ -1074,46 +1076,46 @@
     grid-template-rows: 65px 140px repeat(3, 55px) 75px 360px;
     grid-column-gap:60px;
     grid-row-gap: 35px;
-  }  #Brokerage_and_Liquidity > *:nth-child(1){
+  }  #brokerage_and_Liquidity > *:nth-child(1){
     -ms-grid-row: 1;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(2){
+  }  #brokerage_and_Liquidity > *:nth-child(2){
     -ms-grid-row: 1;
     -ms-grid-column: 3;
-  }  #Brokerage_and_Liquidity > *:nth-child(3){
+  }  #brokerage_and_Liquidity > *:nth-child(3){
     -ms-grid-row: 3;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(4){
+  }  #brokerage_and_Liquidity > *:nth-child(4){
     -ms-grid-row: 3;
     -ms-grid-column: 3;
-  }  #Brokerage_and_Liquidity > *:nth-child(5){
+  }  #brokerage_and_Liquidity > *:nth-child(5){
     -ms-grid-row: 5;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(6){
+  }  #brokerage_and_Liquidity > *:nth-child(6){
     -ms-grid-row: 5;
     -ms-grid-column: 3;
-  }  #Brokerage_and_Liquidity > *:nth-child(7){
+  }  #brokerage_and_Liquidity > *:nth-child(7){
     -ms-grid-row: 7;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(8){
+  }  #brokerage_and_Liquidity > *:nth-child(8){
     -ms-grid-row: 7;
     -ms-grid-column: 3;
-  }  #Brokerage_and_Liquidity > *:nth-child(9){
+  }  #brokerage_and_Liquidity > *:nth-child(9){
     -ms-grid-row: 9;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(10){
+  }  #brokerage_and_Liquidity > *:nth-child(10){
     -ms-grid-row: 9;
     -ms-grid-column: 3;
-  }  #Brokerage_and_Liquidity > *:nth-child(11){
+  }  #brokerage_and_Liquidity > *:nth-child(11){
     -ms-grid-row: 11;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(12){
+  }  #brokerage_and_Liquidity > *:nth-child(12){
     -ms-grid-row: 11;
     -ms-grid-column: 3;
-  }  #Brokerage_and_Liquidity > *:nth-child(13){
+  }  #brokerage_and_Liquidity > *:nth-child(13){
     -ms-grid-row: 13;
     -ms-grid-column: 1;
-  }  #Brokerage_and_Liquidity > *:nth-child(14){
+  }  #brokerage_and_Liquidity > *:nth-child(14){
     -ms-grid-row: 13;
     -ms-grid-column: 3;
   }
@@ -1188,9 +1190,8 @@
     grid-row: 4/5;
   }
   .square7 {
-    width: 52px;
-    height: 52px;
-    margin-left: 0;
+    width: 30px;
+    margin-left: 6px;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -1212,6 +1213,7 @@
     grid-row: 5/6;
   }
   .square8 {
+    left: 0px;
     width: 52px;
     height: 52px;
     -ms-grid-column: 1;
@@ -1380,8 +1382,8 @@
     grid-row: 3/4;
     margin-top: 0;
   }
-  #Partners_Providers{
-    margin-top: 5920px;
+  #partners_Providers{
+    margin-top: 5520px;
     padding-left: 62px;
     width: 770px;
     -ms-grid-columns:210px 30px 210px 30px 210px;
@@ -1391,39 +1393,39 @@
     grid-row-gap: 30px;
     grid-column-gap: 30px;
   }
-  #Partners_Providers > *:nth-child(1){
+  #partners_Providers > *:nth-child(1){
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
-  #Partners_Providers > *:nth-child(2){
+  #partners_Providers > *:nth-child(2){
     -ms-grid-row: 1;
     -ms-grid-column: 3;
   }
-  #Partners_Providers > *:nth-child(3){
+  #partners_Providers > *:nth-child(3){
     -ms-grid-row: 1;
     -ms-grid-column: 5;
   }
-  #Partners_Providers > *:nth-child(4){
+  #partners_Providers > *:nth-child(4){
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
-  #Partners_Providers > *:nth-child(5){
+  #partners_Providers > *:nth-child(5){
     -ms-grid-row: 3;
     -ms-grid-column: 3;
   }
-  #Partners_Providers > *:nth-child(6){
+  #partners_Providers > *:nth-child(6){
     -ms-grid-row: 3;
     -ms-grid-column: 5;
   }
-  #Partners_Providers > *:nth-child(7){
+  #partners_Providers > *:nth-child(7){
     -ms-grid-row: 5;
     -ms-grid-column: 1;
   }
-  #Partners_Providers > *:nth-child(8){
+  #partners_Providers > *:nth-child(8){
     -ms-grid-row: 5;
     -ms-grid-column: 3;
   }
-  #Partners_Providers > *:nth-child(9){
+  #partners_Providers > *:nth-child(9){
     -ms-grid-row: 5;
     -ms-grid-column: 5;
   }
@@ -1496,7 +1498,7 @@
     margin-left: -10px;
   }
   .contact{
-    margin-top: 6480px;
+    margin-top: 6000px;
     width: 770px;
     -ms-grid-columns:690px;
     grid-template-columns:690px;
@@ -1592,9 +1594,10 @@
     margin-top: 30px;
   }
   .footer {
-    margin-top: 7350px;
+    margin-top: 6900px;
     padding-left: 0px;
     width: 770px;
+    height: 650px;
     -ms-grid-columns: 320px 100px 350px;
     grid-template-columns: 320px 350px;
     -ms-grid-rows: 130px 30px 30px 30px 30px 30px 30px 30px 30px 30px 80px 30px 60px;

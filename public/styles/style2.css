@@ -425,6 +425,7 @@
   position: relative;
   width: 16px;
   cursor: pointer;
+  opacity: 0;
 }
 #downstr1 {
   top: 287px;

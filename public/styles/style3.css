@@ -67,9 +67,9 @@
 }
 .square1 {
   position: absolute;
+  left: -21px;
+  top: -4px;
   display:inline-block ;
-  width: 54px;
-  height: 51px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -97,8 +97,8 @@
 .square2 {
   position: absolute;
   display:inline-block ;
-  width: 40px;
-  height: 44px;
+  left: -24px;
+  top: -13px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -126,8 +126,8 @@
 .square3 {
   position: absolute;
   display:inline-block ;
-  width: 50px;
-  height: 50px;
+  left: -18px;
+  top: -7px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
@@ -155,8 +155,8 @@
 .square4 {
   position: absolute;
   display:inline-block ;
-  width: 55px;
-  height: 54px;
+  left: -16px;
+  top: -5px;
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
