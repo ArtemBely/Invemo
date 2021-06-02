@@ -1,47 +1,154 @@
-.selection_note_4{
+.Managed_account{
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row:3;
+  -ms-grid-row-span:1;
+  grid-row:3/4;
+  width: 483px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns:181px 302px;
+  grid-template-columns:181px 302px;
+  -ms-grid-rows: 76px 55px 55px 76px 55px;
+  grid-template-rows: 76px 55px 55px 76px 55px;
+  border-top: 1px solid #808080;
+}.Managed_account > *:nth-child(1){
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}.Managed_account > *:nth-child(2){
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}.Managed_account > *:nth-child(3){
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}.Managed_account > *:nth-child(4){
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}.Managed_account > *:nth-child(5){
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}.Managed_account > *:nth-child(6){
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}.Managed_account > *:nth-child(7){
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+}.Managed_account > *:nth-child(8){
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+}.Managed_account > *:nth-child(9){
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}.Managed_account > *:nth-child(10){
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+}
+.selection_account_1, .selection_account_2, .selection_account_3, .selection_account_4, .selection_account_5{
   font-family: 'Muller-Regular';
   color: #000000;
-  font-size: 22px;
-  line-height: 31px;
+  font-size: 18px;
+  line-height: 25px;
   font-weight: 400;
-  margin-top: 0;
-  padding: 15px 0;
+  margin: 0px;
+}
+.selection_account_6, .selection_account_7, .selection_account_8, .selection_account_9, .selection_account_10{
+  font-family: 'Muller-Regular';
+  color: #000000;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  margin: 0px;
 }
 .selection_account_1{
-  font-family: 'Muller-Regular';
-  color: #000000;
-  font-size: 22px;
-  line-height: 31px;
-  font-weight: 400;
-  margin-top: -5px;
-  padding-left: 63px;
+  padding: 23px 0;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row:1;
+  -ms-grid-row-span:1;
+  grid-row:1/2;
 }
 .selection_account_2{
-  font-family: 'Muller-Regular';
-  color: #000000;
-  font-size: 22px;
-  line-height: 31px;
-  font-weight: 400;
-  margin-top: 0;
-  padding-left: 63px;
+  padding: 13px 0;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row:2;
+  -ms-grid-row-span:1;
+  grid-row:2/3;
 }
 .selection_account_3{
-  font-family: 'Muller-Regular';
-  color: #000000;
-  font-size: 22px;
-  line-height: 31px;
-  font-weight: 400;
-  margin-top: 0;
-  padding-left: 63px;
+  padding: 13px 0;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row:3;
+  -ms-grid-row-span:1;
+  grid-row:3/4;
 }
 .selection_account_4{
-  font-family: 'Muller-Regular';
-  color: #000000;
-  font-size: 22px;
-  line-height: 31px;
-  font-weight: 400;
-  margin-top: 0;
-  padding-left: 63px;
+  padding: 23px 0px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row:4;
+  -ms-grid-row-span:1;
+  grid-row:4/5;
+}
+.selection_account_5{
+  padding: 13px 0;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row:5;
+  -ms-grid-row-span:1;
+  grid-row:5/6;
+}
+.selection_account_6{
+  padding: 13px 0px 13px 25px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row:1;
+  -ms-grid-row-span:1;
+  grid-row:1/2;
+}
+.selection_account_7{
+  padding: 13px 0px 13px 25px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row:2;
+  -ms-grid-row-span:1;
+  grid-row:2/3;
+}
+.selection_account_8{
+  padding: 13px 25px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row:3;
+  -ms-grid-row-span:1;
+  grid-row:3/4;
+}
+.selection_account_9{
+  padding: 13px 0px 13px 25px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row:4;
+  -ms-grid-row-span:1;
+  grid-row:4/5;
+}
+.selection_account_10{
+  padding: 13px 25px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row:5;
+  -ms-grid-row-span:1;
+  grid-row:5/6;
 }
 .selection_button{
   font-family: 'Muller-Regular';
@@ -53,9 +160,9 @@
   -ms-grid-column:1;
   -ms-grid-column-span:1;
   grid-column:1/2;
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 3/4;
+  grid-row: 4/5;
   width: 300px;
   height: 83px;
   border: 1px solid #E30D1A;
