@@ -231,7 +231,6 @@
   .wrap_footer {
     position: relative;
     left: 23px;
-    z-index: -1 !important;
   }
   .contact_text {
     width: 140px;

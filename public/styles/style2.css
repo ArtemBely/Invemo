@@ -418,9 +418,7 @@
   top: 400px;
   position: relative;
 }
-.wrap_footer {
-  z-index: -1;
-}
+
 .downStr {
   position: relative;
   width: 16px;

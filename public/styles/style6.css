@@ -330,7 +330,9 @@
   position: relative;
   z-index: 1000;
   display: none;
-  width: 1000px;
+  width: 900px;
+  overflow-y: scroll;
+  padding: 10px 50px;
   height: 700px;
   background: #ffffff;
   border: 1px solid #000000;
@@ -367,5 +369,30 @@
   left: -47px;
 }
 .swal-button-container {
-    margin: 0px !important;
+  margin: 0px !important;
+}
+.terms_title {
+  font-size: 70px;
+  font-family: 'Muller-Bold';
+  line-height: 112px;
+  height: 55px;
+  position: relative;
+}
+.no_offer {
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 31px;
+}
+.obvious {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+}
+#priv {
+  font-size: 70px;
+  font-family: 'Muller-Bold';
+  line-height: 75px;
+  height: 55px;
+  position: relative;
+  height: 117px;
 }
