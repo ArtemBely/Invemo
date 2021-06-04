@@ -396,3 +396,22 @@
   position: relative;
   height: 117px;
 }
+#brok_detect {
+  position: absolute;
+  top: 650px;
+}
+#liq_detect {
+  position: absolute;
+  top: 385px;
+}
+#part_detect {
+  position: absolute;
+  top: 1080px;
+}
+#cont_detect {
+  position: absolute;
+  top: 750px;
+}
+.wrap_selection {
+  top: 360px;
+}

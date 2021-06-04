@@ -5,6 +5,26 @@
   .wrap_contact {
     left: -10px;
   }
+  .rectangle3 {
+    width: 345px !important;
+  }
+  .selection_note, .selection_account {
+    width: 320px !important;
+  }
+  .Structured_note, .Managed_account {
+    width: 334px !important;
+    -ms-grid-columns: 151px 179px !important;
+    grid-template-columns: 151px 179px !important;
+  }
+  .item, .item3 {
+    font-size: 14px !important;
+  }
+  .item2, .item4 {
+    padding: 10px 10px !important;
+    line-height: 23px !important;
+    width: 164px !important;
+    font-size: 14px !important;
+  }
   .footer_address {
     margin-left: -112px !important;
   }
@@ -132,6 +152,19 @@
   .terms_title, #priv {
     font-size: 16px;
     line-height: 60px;
+  }
+  #liq_detect {
+    top: 480px;
+  }
+  #brok_detect {
+    top: 970px;
+  }
+  #part_detect {
+    top: 1630px;
+  }
+  #cont_detect {
+    position: absolute;
+    top: 400px;
   }
   #priv {
     width: 200px;
@@ -896,6 +929,7 @@
     -ms-grid-column: 2;
   }
   .Managed_account{
+    left: 0px;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -959,6 +993,7 @@
     grid-row: 2/3;
   }
   .selection_account{
+    left: 0px;
     -ms-grid-column:1;
     -ms-grid-column-span:1;
     grid-column:1/2;
@@ -1053,6 +1088,7 @@
     padding: 10px 14px;
   }
   .selection_button{
+    top: 0px;
     -ms-grid-column:1;
     -ms-grid-column-span:1;
     grid-column:1/2;
