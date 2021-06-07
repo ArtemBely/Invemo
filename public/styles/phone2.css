@@ -196,15 +196,25 @@
     -ms-grid-row: 6;
     -ms-grid-row-span: 1;
     grid-row: 6/7;
-    margin-top: 25px;
   }
   .mobile_img2{
     left: 0px !important;
     -ms-grid-row: 6;
     -ms-grid-row-span: 1;
     grid-row: 6/7;
-    margin-left: -160px;
-    margin-top: 18px;
+  }
+  #linkedin_mob {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 25px;
+  }
+  #media_mob {
+    width: 53px;
+    height: 53px;
+    position: relative;
+    left: 58px;
+    top: -28px;
   }
   .showHidden {
     position: absolute !important;

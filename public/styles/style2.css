@@ -10,6 +10,7 @@
   -ms-grid-row-span: 1;
   grid-row: 4/5;
   margin-top: 8px;
+  left: -10px;
 }
 
 .asset_strategies_2{
@@ -39,7 +40,7 @@
   -ms-grid-row-span: 1;
   grid-row: 5/6;
   margin-top: 178px;
-  left: -5px;
+  left: -10px;
 }
 .asset_strategies_3{
   font-family: 'Muller-Regular';
@@ -68,6 +69,7 @@
   -ms-grid-row-span: 1;
   grid-row: 6/7;
   margin-top: 351px;
+  left: -8px;
 }
 .asset_button{
   margin-top: 10px;

@@ -387,6 +387,8 @@ form{
   cursor: pointer;
 }
 .contact_text{
+  position: relative;
+  top: 12px;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
@@ -413,4 +415,5 @@ form{
   font-size: 22px;
   line-height: 31px;
   font-weight: 400;
+  opacity: 0;
 }

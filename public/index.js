@@ -28,16 +28,17 @@ $(document).ready(function() {
 
 	//E-mail Ajax Send
 	$("#order_our").submit(function() { //Change
+    swal({
+    text: "Message was sent. Our team will contact you soon.",
+    button: "OK"
+    });
 		var th = $(this);
 		$.ajax({
 			type: "POST",
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-        swal({
-        text: "The data has been sent. Our manager will contact you soon.",
-        button: "Okay"
-        });
+      console.log('done');
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
@@ -115,3 +116,27 @@ modal1.addEventListener('click', () => {
     }
   });
 });
+/*
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("#order_our").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+        swal({
+        text: "The data has been sent. Our manager will contact you soon.",
+        button: "Okay"
+        });
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+});
+*/

@@ -48,6 +48,8 @@ body{
 #mainCont {
   z-index: 999;
 }
+/*уменьшение масштаба страницы*/
+
 .contacts1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,7 +61,7 @@ body{
   position: relative;
 }
 .wrap_container{
-  background-image: url('../images/minidesc.png');
+  background-image: url('../images/Frame 475.jpg');
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
