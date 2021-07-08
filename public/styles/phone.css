@@ -26,7 +26,8 @@
     font-size: 14px !important;
   }
   .footer_address {
-    margin-left: -112px !important;
+    margin-top: 118px !important;
+    margin-left: 17px !important;
   }
   .onboarding {
     width: 287px !important;
@@ -47,18 +48,24 @@
   .footer_logo_name {
     margin-left: 16px !important;
   }
+  #link7 {
+    margin-left: 28px !important;
+  }
   #link6 {
     margin-left: 28px !important;
   }
   #link8 {
-    margin-left: -62px !important;
+    margin-left: 28px !important;
   }
   #link9 {
-    width: 123px !important;
-    margin-left: 38px !important;
+    width: 86px !important;
+    margin-left: 28px !important;
+    margin-top: 39px !important;
   }
   #link10 {
-    margin-left: 35px !important;
+    margin-left: 28px !important;
+    top: 32px !important;
+    position: relative;
   }
   .infrastructure {
     left: 55px !important;
@@ -179,7 +186,7 @@
     font-weight: 800;
     line-height: 22px;
   }
-  #mod1, #mod2, #mod3, #mod4, #mod5 {
+  #mod1, #mod2, #mod3, #mod4, #mod5, #mod6 {
     width: 290px;
   }
   .swal-modal {
@@ -418,7 +425,7 @@
     left: -3px;
   }
   .asset_strategies_1{
-    margin-top: 0px;
+    margin-top: 3px;
     font-size: 16px;
     line-height: 26px;
     margin-left: 0;
@@ -456,7 +463,7 @@
     left: -3px;
   }
   .asset_strategies_3{
-    margin-top: 0px;
+    margin-top: -14px;
     margin-left: 0;
     font-size: 16px;
     line-height: 26px;
@@ -1634,7 +1641,7 @@
   .footer {
     margin-top: 6100px;
     width: 300px;
-    height: 470px;
+    height: 500px;
     left: -26px;
     -ms-grid-columns: 145px 48px 150px;
     grid-template-columns: 145px 150px;
@@ -1778,6 +1785,18 @@
       width: 107px;
       color: #808080;
     }
+    #link17 {
+      -ms-grid-row: 7;
+      -ms-grid-row-span: 1;
+      grid-row: 7 / 8;
+      -ms-grid-column: 4;
+      -ms-grid-column-span: 1;
+      grid-column: 2 / 3;
+      width: 114px;
+      position: relative;
+      top: -30px;
+      color: #808080;
+    }
     #link12{
       -ms-grid-column:2;
       -ms-grid-column-span:1;
@@ -1832,7 +1851,7 @@
       -ms-grid-row: 7;
       -ms-grid-row-span: 1;
       grid-row: 7/8;
-      margin-top: 60px;
+      margin-top: 125px;
       margin-left: 0px;
       font-size: 16px;
       line-height: 26px;
@@ -1844,7 +1863,7 @@
       -ms-grid-row: 8;
       -ms-grid-row-span: 1;
       grid-row: 8/9;
-      margin-top: 0px;
+      margin-top: 57px;
       margin-left: 0px;
       font-size: 16px;
       line-height: 26px;
@@ -1868,14 +1887,14 @@
       height: 23px;
       position: relative;
       left: 92px;
-      top: 319px;
+      top: 345px;
     }
     #medium {
       width: 23px;
       height: 23px;
       position: relative;
       left: 126px;
-      top: -67px;
+      top: -42px;
     }
     .footer_img2{
       width: 35px;

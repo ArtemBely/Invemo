@@ -78,11 +78,13 @@ var mod2 = document.getElementById('mod2');
 var mod3 = document.getElementById('mod3');
 var mod4 = document.getElementById('mod4');
 var mod5 = document.getElementById('mod5');
+var mod6 = document.getElementById('mod6');
 var link12 = document.getElementById('link12');
 var link13 = document.getElementById('link13');
 var link14 = document.getElementById('link14');
 var link15 = document.getElementById('link15');
 var link16 = document.getElementById('link16');
+var link17 = document.getElementById('link17');
 
 document.querySelectorAll('.special_links').forEach(item => {
   item.addEventListener('click', () => {
@@ -104,6 +106,9 @@ link14.addEventListener('click', () => {
 });
 link15.addEventListener('click', () => {
     mod5.classList.add('add1');
+});
+link17.addEventListener('click', () => {
+    mod6.classList.add('add1');
 });
 
 modal1.addEventListener('click', () => {

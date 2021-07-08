@@ -1,3 +1,18 @@
+@media (min-width: 359px) and (max-width: 360px) {
+  .footer_address {
+    left: 9px !important;
+    position: relative;
+    width: 192px !important;
+  }
+  #linkedin {
+    left: 74px !important;
+    top: 357px !important;
+  }
+  #medium {
+    left: 305px !important;
+    top: 211px !important;
+  }
+}
 @media (min-width: 320px) and (max-width: 360px) {
   table {
     width: 335px !important;
@@ -15,7 +30,7 @@
     margin-left: 27px !important;
   }
   .footer_address {
-    left: 139px !important;
+    left: 139px;
     position: relative;
     width: 224px
   }
