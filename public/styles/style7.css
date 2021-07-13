@@ -1,0 +1,229 @@
+.careers {
+  margin: 0;
+  padding: 0;
+}
+
+.careers_wrap {
+  margin-top: 5500px;
+}
+
+.careers_title {
+  display: block;
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 160%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.careers_grid {
+  width: 1288px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(auto, 1014px) minmax(auto, 687px);
+      grid-template-columns: minmax(auto, 1014px) minmax(auto, 687px);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
+  gap: 30px;
+}
+
+.careers_administration {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 627px;
+  padding: 30px;
+}
+
+.careers_administration-title {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.careers_task-title {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.careers_task-content {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.careers_requirements-title {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.careers_requirements-content {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.careers_administration-button {
+  font-family: 'Muller-Regular';
+  z-index: 999;
+  position: relative;
+  color: #000000;
+  font-size: 22px;
+  line-height: 83px;
+  font-weight: 400;
+  max-width: 300px;
+  height: 83px;
+  border: 1px solid #E30D1A;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding-bottom: 30px;
+  padding: 22.5px 95px;
+  margin-bottom: 30px;
+}
+
+.careers_administration-button:hover {
+  background-color: #E30D1A;
+  color: white;
+}
+
+.careers_developer {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 627px;
+  height: 687px;
+  padding: 30px;
+}
+
+.developer_title {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.developer_task-title {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.developer_task-content {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.developer_requirements-title {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.developer_requirements-content {
+  font-family: (Muller);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.developer_requirements-button {
+  font-family: 'Muller-Regular';
+  z-index: 999;
+  position: relative;
+  color: #000000;
+  font-size: 22px;
+  line-height: 83px;
+  font-weight: 400;
+  max-width: 300px;
+  height: 83px;
+  border: 1px solid #E30D1A;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 22.5px 95px;
+  margin-bottom: 30px;
+}
+
+.developer_requirements-button:hover {
+  background-color: #E30D1A;
+  color: white;
+}
+
+@media (max-width: 1390px) {
+  .careers_wrap {
+    margin-top: 6350px;
+  }
+}
