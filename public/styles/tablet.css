@@ -103,10 +103,16 @@
       zoom: 0.8; /* Other non-webkit browsers */
       zoom: 80%; /* Webkit browsers */
   }
+  .developer_requirements-button {
+    text-decoration: none;
+  }
 }
 @media (min-width: 1100px) and (max-width: 1390px) {
   .close {
     left: 338px !important;
+  }
+  .developer_requirements-button {
+    text-decoration: none;
   }
   .hiddenMenu {
     display: -ms-grid;
@@ -165,8 +171,22 @@
   #mod1, #mod2, #mod3, #mod4, #mod5, #mod6 {
     width: 565px;
   }
+  #buis, #buis2, #buis3, #buis4 {
+    width: 627px;
+  }
   #liq_detect {
     top: -70px;
+  }
+  #cont_detect {
+    width: 100px;
+    height: 100px;
+    top: 2419px !important;
+  }
+  .trans_arr0 {
+    top: -803px !important;
+  }
+  .developer_task-content {
+    width: 550px;
   }
   #brok_detect {
     top: 650px;
@@ -188,6 +208,42 @@
   #medium {
     left: 548px;
     top: -42px;
+  }
+  .careers_title {
+    font-family: 'Muller-Bold';
+    font-size: 40px;
+    line-height: 64px;
+    position: relative;
+    left: 62px;
+    top: 123px;
+  }
+  .careers_administration-title, .developer_title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .careers_grid {
+    grid-template-columns: 1fr;
+    width: 800px;
+  }
+  .careers_administration {
+    width: 688px;
+    position: relative;
+    left: 8px;
+    top: 113px;
+    height: 954px;
+  }
+  .change_buis {
+    width: 420px !important;
+  }
+  .careers_developer {
+    width: 688px;
+    position: relative;
+    left: 8px;
+    top: 119px;
+    height: 651px;
+  }
+  .com_arrow {
+    left: 544px;
   }
   .header{
     width: 770px;
@@ -1735,7 +1791,7 @@
     margin-left: -10px;
   }
   .contact{
-    margin-top: 0px;
+    margin-top: 110px;
     width: 770px;
     -ms-grid-columns:690px;
     grid-template-columns:690px;

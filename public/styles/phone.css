@@ -156,6 +156,108 @@
   .header {
     display: none;
   }
+  .careers_task-title {
+    position: relative;
+    top: -6px;
+  }
+  .careers_title {
+    font-family: 'Muller-Bold';
+    font-size: 40px;
+    line-height: 64px;
+    position: relative;
+    left: 5px;
+    top: 123px;
+    width: 100px;
+  }
+  .careers_wrap {
+    margin-top: 5836px;
+    position: relative;
+    left: 23px;
+  }
+  .careers_administration-title, .developer_title,
+   #buis, #buis2, #buis3, #buis4, .careers_requirements-content,
+  .careers_requirements-title, .careers_task-title {
+    font-size: 18px;
+    line-height: 25px;
+    width: 270px;
+  }
+  .careers_grid {
+    grid-template-columns: 1fr;
+    width: 320px;
+  }
+  #wrap2but, #wrap1but {
+    font-family: 'Muller-Regular';
+    z-index: 999;
+    position: relative;
+    color: #000000;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 18px;
+    width: 160px;
+    height: 65px;
+    border: 1px solid #E30D1A;
+  }
+  .hide_block {
+    height: 210px !important;
+    transition: 0.2s;
+  }
+  .trans_arr0 {
+    top: -929px !important;
+    left: 236px !important;
+  }
+  #cont_detect {
+    width: 100px;
+    height: 100px;
+    top: 2355px !important;
+  }
+  .trans_arr {
+    top: -547px !important;
+  }
+  #arrow1 {
+    position: relative;
+    top: -82px;
+    left: 235px;
+  }
+  #wrap2but {
+    top: -26px !important;
+  }
+  .developer_task-content, .developer_requirements-content, .developer_task-title, .developer_requirements-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .com_arrow {
+    top: -57px;
+    left: 236px;
+  }
+  .careers_developer {
+    top: 716px;
+  }
+  .careers_administration {
+    width: 327px;
+    position: relative;
+    left: 8px;
+    top: 113px;
+    height: 1070px;
+  }
+  .careers_developer {
+    width: 327px;
+    position: relative;
+    left: 8px;
+    top: 119px;
+    height: 715px;
+  }
   .terms_title, #priv {
     font-size: 16px;
     line-height: 60px;
@@ -509,7 +611,7 @@
             justify-content: center;
     margin-top: 570px;
     width: 288px;
-    left: 121px;
+    left: 137px;
     -ms-grid-columns:415px;
     grid-template-columns:415px;
     -ms-grid-rows: 477px 20px 38px 20px 104px 20px 55px 20px 55px 20px 55px 20px 55px 20px 55px 20px 85px;
@@ -872,7 +974,7 @@
     -ms-grid-rows: 31px 15px 32px 15px 335px 15px 32px 15px 330px 15px 90px;
     grid-template-rows: 31px 32px 335px 32px 330px 90px ;
     grid-row-gap: 15px;
-    left: 13px;
+    left: 21px;
   }  .selection > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -1402,7 +1504,7 @@
   .trading_img4{
     display: block;
     position: relative;
-    left: 12px;
+    left: 9px;
     width: 335px;
     height: 512px;
     grid-row: 13/14;
@@ -1520,14 +1622,14 @@
     margin-left: -10px;
   }
   .contact{
-    margin-top: 5600px;
+    margin-top: 20px;
     width: 300px;
     -ms-grid-columns:400px;
     grid-template-columns:400px;
     -ms-grid-rows: 35px 10px 42px 10px 42px 10px 42px 10px 145px 10px 42px 10px 16px;
     grid-template-rows: 35px repeat(3, 42px) 145px 42px 16px;
     grid-row-gap: 10px;
-    left: 24px;
+    left: 21px;
   }
   .contact > *:nth-child(1){
     -ms-grid-row: 1;
@@ -1639,7 +1741,7 @@
     width: 205px;
   }
   .footer {
-    margin-top: 6100px;
+    margin-top: 308px;
     width: 300px;
     height: 500px;
     left: -26px;

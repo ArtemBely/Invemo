@@ -231,6 +231,7 @@
   grid-template-rows: 112px repeat(4, 84px);
   grid-row-gap: 16px;
   grid-column-gap: 30px;
+  top: -210px;
 }
 .contact > *:nth-child(1){
   -ms-grid-row: 1;

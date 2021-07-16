@@ -4,7 +4,7 @@
 }
 
 .careers_wrap {
-  margin-top: 5500px;
+  margin-top: 5600px;
 }
 
 .careers_title {
@@ -37,12 +37,15 @@
   border: 1px solid #000000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 627px;
+  width: 627px;
+  height: 1040px;
   padding: 30px;
+  transition: 0.1s;
+  overflow: hidden;
 }
 
 .careers_administration-title {
-  font-family: (Muller);
+  font-family: 'Muller-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -54,18 +57,17 @@
 }
 
 .careers_task-title {
-  font-family: (Muller);
+  font-family: 'Muller-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 140%;
+  line-height: 50px;
   color: #000000;
   margin: 0;
   padding: 0;
 }
 
 .careers_task-content {
-  font-family: (Muller);
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -74,14 +76,15 @@
   margin: 0;
   padding: 0;
   padding-bottom: 30px;
+  width: 427px;
 }
 
 .careers_requirements-title {
-  font-family: (Muller);
+  font-family: 'Muller-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 140%;
+  line-height: 50px;
   color: #000000;
   margin: 0;
   padding: 0;
@@ -92,34 +95,18 @@
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 140%;
+  line-height: 31px;
   color: #000000;
   margin: 0;
   padding: 0;
-  padding-bottom: 30px;
+}
+.careers_requirements {
+  position: relative;
+  top: -55px;
 }
 
 .careers_administration-button {
-  font-family: 'Muller-Regular';
-  z-index: 999;
-  position: relative;
-  color: #000000;
-  font-size: 22px;
-  line-height: 83px;
-  font-weight: 400;
-  max-width: 300px;
-  height: 83px;
-  border: 1px solid #E30D1A;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
   text-decoration: none;
-  margin-top: 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  padding-bottom: 30px;
-  padding: 22.5px 95px;
-  margin-bottom: 30px;
 }
 
 .careers_administration-button:hover {
@@ -132,13 +119,35 @@
   border: 1px solid #000000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 627px;
-  height: 687px;
+  width: 627px;
+  height: 648px;
   padding: 30px;
+  transition: 0.1s;
+  overflow: hidden;
 }
 
+.hide_block {
+  height: 256px !important;
+  transition: 0.2s;
+}
+.opa {
+  opacity: 0 !important;
+}
+.trans_arr0 {
+  top: -857px !important;
+  transform: rotate(180deg);
+}
+.trans_arr {
+  top: -442px !important;
+  transform: rotate(180deg);
+}
+.shadowCont {
+  background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .developer_title {
-  font-family: (Muller);
+  font-family: 'Muller-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -150,11 +159,11 @@
 }
 
 .developer_task-title {
-  font-family: (Muller);
+  font-family: 'Muller-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 140%;
+  line-height: 50px;
   color: #000000;
   margin: 0;
   padding: 0;
@@ -173,11 +182,11 @@
 }
 
 .developer_requirements-title {
-  font-family: (Muller);
+  font-family: 'Muller-Bold';
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 140%;
+  line-height: 50px;
   color: #000000;
   margin: 0;
   padding: 0;
@@ -196,32 +205,78 @@
 }
 
 .developer_requirements-button {
-  font-family: 'Muller-Regular';
-  z-index: 999;
-  position: relative;
-  color: #000000;
-  font-size: 22px;
-  line-height: 83px;
-  font-weight: 400;
-  max-width: 300px;
-  height: 83px;
-  border: 1px solid #E30D1A;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
   text-decoration: none;
-  margin-top: 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  padding: 22.5px 95px;
-  margin-bottom: 30px;
 }
 
-.developer_requirements-button:hover {
+#wrap2but:hover {
   background-color: #E30D1A;
   color: white;
 }
-
+#wrap1but:hover {
+  background-color: #E30D1A;
+  color: white;
+}
+.com_arrow {
+  position: relative;
+  left: 542px;
+  top: -61px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#buis, #buis2, #buis3, #buis4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  width: 427px;
+  position: relative;
+}
+#cont_detect {
+  width: 100px;
+  height: 100px;
+  top: 2028px !important;
+}
+#buis {
+  top: -32px;
+  transition: 0.5s !important;
+}
+#buis2 {
+  top: -45px;
+}
+#buis3 {
+  top: -57px;
+}
+#buis4 {
+  top: -68px;
+}
+#wrap1but {
+  position: relative;
+  top: -51px;
+}
+#arrow1 {
+  top: -89px;
+  left: 543px;
+}
+#wrap2but, #wrap1but {
+  width: 300px;
+  height: 83px;
+  border: 1px solid #E30D1A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  line-height: 160%;
+  color: black;
+  transition: 0.2s;
+}
+#wrap2but {
+  position: relative;
+  top: -25px;
+}
 @media (max-width: 1390px) {
   .careers_wrap {
     margin-top: 6350px;

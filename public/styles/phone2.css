@@ -1,3 +1,11 @@
+@media (min-width: 320px) and (max-width: 370px) {
+
+  body {
+      -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+      zoom: 0.8; /* Other non-webkit browsers */
+      zoom: 80%; /* Webkit browsers */
+  }
+}
 @media (min-width: 359px) and (max-width: 360px) {
   .footer_address {
     left: 9px !important;
@@ -268,7 +276,7 @@
   }
   .wrap_brokerage {
     position: relative;
-    left: -50px;
+    left: -37px;
   }
   .wrap_selection {
     position: relative;
@@ -276,7 +284,7 @@
   }
   .wrap_onboarding {
     position: relative;
-    left: 20px;
+    left: 34px;
   }
 }
 /*@media (min-height: 360px) and (orientation:landscape) {
