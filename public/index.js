@@ -132,13 +132,13 @@ var buis2 = document.querySelector('#buis2');
 
 arrow1.addEventListener('click', () => {
   buis.classList.toggle('change_buis');
-  adm.classList.toggle('hide_block');
+  adm.classList.toggle('hide_block1');
   arrow1.classList.toggle('trans_arr0');
   buis.classList.toggle('shadowCont');
   buis2.classList.toggle('opa');
 });
 arrow2.addEventListener('click', () => {
-  dev.classList.toggle('hide_block');
+  dev.classList.toggle('hide_block2');
   arrow2.classList.toggle('trans_arr');
   shadow2.classList.toggle('shadowCont');
 });

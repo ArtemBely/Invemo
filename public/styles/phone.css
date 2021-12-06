@@ -162,15 +162,15 @@
   }
   .careers_title {
     font-family: 'Muller-Bold';
-    font-size: 40px;
+    font-size: 22px;
     line-height: 64px;
     position: relative;
     left: 5px;
-    top: 123px;
+    top: 146px;
     width: 100px;
   }
   .careers_wrap {
-    margin-top: 5836px;
+    margin-top: 5119px;
     position: relative;
     left: 23px;
   }
@@ -214,20 +214,21 @@
     transition: 0.2s;
   }
   .trans_arr0 {
-    top: -929px !important;
+    top: -82px !important;
     left: 236px !important;
   }
   #cont_detect {
+    position: relative !important;
     width: 100px;
     height: 100px;
-    top: 2355px !important;
+    top: 1520px !important;
   }
   .trans_arr {
-    top: -547px !important;
+    top: -57px !important;
   }
   #arrow1 {
     position: relative;
-    top: -82px;
+    top: -923px;
     left: 235px;
   }
   #wrap2but {
@@ -238,18 +239,22 @@
     line-height: 25px;
   }
   .com_arrow {
-    top: -57px;
+    top: -542px;
     left: 236px;
   }
   .careers_developer {
     top: 716px;
+    height: 213px !important;
   }
   .careers_administration {
     width: 327px;
     position: relative;
     left: 8px;
     top: 113px;
-    height: 1070px;
+    height: 213px;
+  }
+  .hide_block1 {
+    height: 1070px !important;
   }
   .careers_developer {
     width: 327px;
@@ -257,6 +262,9 @@
     left: 8px;
     top: 119px;
     height: 715px;
+  }
+  .hide_block2 {
+    height: 710px !important;
   }
   .terms_title, #priv {
     font-size: 16px;
@@ -1213,14 +1221,15 @@
     font-size: 18px;
   }
   #brokerage_and_Liquidity{
-    margin-top: 3710px;
+    margin-top: 3677px;
     width: 300px;
     left: 19px;
-    -ms-grid-columns:320px;
-    grid-template-columns:320px;
-    -ms-grid-rows: 35px 25px 87px 25px 55px 25px 55px 25px 55px 25px 55px 25px 95px 25px 116px 25px  50px 25px 50px 25px 50px 25px 75px 25px 600px;
-    grid-template-rows: 35px 87px repeat(4, 55px) 95px 116px  repeat(3, 50px) 75px 600px;
-    grid-row-gap: 25px;
+    -ms-grid-columns: 320px;
+    grid-template-columns: 320px;
+    -ms-grid-rows: 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-row-gap: 17px;
+    height: 901px;
   }  #brokerage_and_Liquidity > *:nth-child(1){
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -1262,7 +1271,7 @@
     -ms-grid-column: 1;
   }
   .brokerage_title{
-    font-size: 30px;
+    font-size: 22px;
     line-height: 48px;
     color: #181818;
     width: 300px;
@@ -1369,7 +1378,7 @@
     display: none;
   }
   .liquidity_title{
-    font-size: 30px;
+    font-size: 22px;
     line-height: 48px;
     color: #181818;
     -ms-grid-row: 7;
@@ -1508,10 +1517,10 @@
     width: 335px;
     height: 512px;
     grid-row: 13/14;
-    margin-top: 100px;
+    margin-top: -122px;
   }
   #partners_Providers{
-    margin-top: 5100px;
+    margin-top: 4403px;
     left: 30px;
     width: 300px;
     -ms-grid-columns:162px 13px 162px;
@@ -1664,6 +1673,15 @@
     font-size: 22px;
     line-height: 35px;
     width: 200px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    position: relative;
+    top: -66px;
   }
   .name_input{
     -ms-grid-row: 2;

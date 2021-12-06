@@ -4,20 +4,20 @@
 }
 
 .careers_wrap {
-  margin-top: 5600px;
+  margin-top: 5280px;
 }
 
 .careers_title {
   display: block;
-  font-family: (Muller);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 70px;
-  line-height: 160%;
+  line-height: 112px;
   color: #000000;
   margin: 0;
   padding: 0;
   padding-bottom: 30px;
+  font-family: 'Muller-Bold';
 }
 
 .careers_grid {
@@ -38,7 +38,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 627px;
-  height: 1040px;
+  height: 256px;
   padding: 30px;
   transition: 0.1s;
   overflow: hidden;
@@ -120,26 +120,29 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 627px;
-  height: 648px;
+  height: 256px !important;
   padding: 30px;
   transition: 0.1s;
   overflow: hidden;
 }
-
-.hide_block {
-  height: 256px !important;
+.hide_block1 {
+  height: 1040px !important;
+  transition: 0.2s;
+}
+.hide_block2 {
+  height: 648px !important;
   transition: 0.2s;
 }
 .opa {
-  opacity: 0 !important;
+  opacity: 1 !important;
 }
 .trans_arr0 {
-  top: -857px !important;
-  transform: rotate(180deg);
+  top: -89px !important;
+  transform: rotate(360deg) !important;
 }
 .trans_arr {
-  top: -442px !important;
-  transform: rotate(180deg);
+  top: -61px !important;
+  transform: rotate(360deg) !important;
 }
 .shadowCont {
   background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
@@ -219,9 +222,10 @@
 .com_arrow {
   position: relative;
   left: 542px;
-  top: -61px;
+  top: -442px;
   cursor: pointer;
   transition: 0.2s;
+  transform: rotate(180deg);
 }
 #buis, #buis2, #buis3, #buis4 {
   font-style: normal;
@@ -246,6 +250,7 @@
 }
 #buis2 {
   top: -45px;
+  opacity: 0;
 }
 #buis3 {
   top: -57px;
@@ -258,8 +263,9 @@
   top: -51px;
 }
 #arrow1 {
-  top: -89px;
+  top: -857px;
   left: 543px;
+  transform: rotate(180deg);
 }
 #wrap2but, #wrap1but {
   width: 300px;
@@ -279,6 +285,6 @@
 }
 @media (max-width: 1390px) {
   .careers_wrap {
-    margin-top: 6350px;
+    margin-top: 6034px;
   }
 }
