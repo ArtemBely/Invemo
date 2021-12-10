@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 500px; 
+  margin-top: 500px;
   margin-bottom: 80px;
   width: 1320px;
   height: 300px;
@@ -209,20 +209,22 @@
   -ms-grid-column-span:1;
   grid-column:3/4;
   width: 72px;
+  opacity: 0;
+  z-index: -1000;
 }
 #link9{
-  -ms-grid-row: 4;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 4/5;
+  grid-row: 3/4;
   -ms-grid-column:3;
   -ms-grid-column-span:1;
   grid-column:3/4;
   width: 169px;
 }
 #link10{
-  -ms-grid-row: 5;
+  -ms-grid-row: 4;
   -ms-grid-row-span: 1;
-  grid-row: 5/6;
+  grid-row: 4/5;
   -ms-grid-column:3;
   -ms-grid-column-span:1;
   grid-column:3/4;
